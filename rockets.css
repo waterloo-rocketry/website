@@ -1,0 +1,63 @@
+.box__wrapper {
+	padding-top: 9.2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.box {
+	height: 17rem;
+	padding: 1rem;
+}
+
+.box__inner {
+	height: 15rem;
+	background: url('https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 6rem;
+}
+
+.title {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin-bottom: 0.3rem;
+}
+
+/* individual box backgrounds */
+#vidar2 {
+	background: url('https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xaf1/t31.0-8/s960x960/12593752_1108291189201246_4136817060513853947_o.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#vidar {
+	background: url('https://c2.staticflickr.com/4/3889/14650011337_05778336aa_b.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 80%;
+}
+
+#silverbrant {
+	background: url('https://c1.staticflickr.com/6/5514/12330499864_11865dd48e_z.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 20% 0%;
+}
+
+#eridani {
+	background: url('https://c6.staticflickr.com/8/7410/12330078333_d7413435d4_c.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#wrt1 {
+	background: url('https://c1.staticflickr.com/3/2734/5858041824_0a6ff36d62_z.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}

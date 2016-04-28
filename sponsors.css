@@ -1,0 +1,77 @@
+.cover-photo {
+	margin-top: 8.2rem;
+	height: 30rem;
+	background: url('https://c1.staticflickr.com/1/279/18709112463_c76f156221_b.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.info-container {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.sponsors__header {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;	
+}
+
+.sponsors__header h1 {
+	margin: 1rem;
+}
+
+.sponsors__header .line {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.sponsors__container {
+	text-align: center;
+	padding-bottom: 1.5rem;
+	display: block;
+	background: white;
+}
+
+.sponsors__container img {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	height: 8rem;
+	width: auto;
+}
+
+.platinum img {
+	height: 4.5rem;
+}
+
+.platinum p {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.silver img {
+	width: 70%;
+	height: auto;
+}
+
+.bronze img {
+	width: 45%;
+	display: block;
+	margin: auto;
+	margin-top: 1.7rem;
+	margin-bottom: 0.7rem;
+	height: auto;
+}
+
+.previous img {
+	height: 4rem;
+	width: auto;
+}
+
+.previous__bottom img {
+	height: 4.5rem;
+	width: auto;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}

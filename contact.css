@@ -1,0 +1,34 @@
+.photo {
+	margin-top: 8.2rem;
+	height: 15rem;
+	background: url('https://c2.staticflickr.com/1/493/19143569929_febd3a033a_h.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.iframe {
+	display: inline-block;
+}
+
+#map {
+	text-align: center;
+}
+
+.contact__wrapper {
+	max-width: 70rem;
+}
+
+.contact__container {
+	padding-top: 2rem;
+	padding-right: 1.5rem;
+	padding-left: 3rem;
+}
+
+.contact__section {
+	padding-top: 1rem;
+}
+
+.footer {
+	margin-top: 3rem;
+}
