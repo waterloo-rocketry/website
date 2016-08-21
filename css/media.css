@@ -1,9 +1,8 @@
 .page-wrap {
-	padding-top: 8.2rem;
 }
 
 .photo {
-	height: 20rem;
+	height: 25rem;
 	background: url('https://c4.staticflickr.com/1/576/21961005211_eafc5414d1_b.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
