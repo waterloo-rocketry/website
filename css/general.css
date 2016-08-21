@@ -49,42 +49,56 @@ a:hover, a:visited {
 .banner__nav {
     height: 2.2rem;
 	min-width: 45rem;
-    background: #ffffff;
-	/* gradient - white to very light grey */
+	margin-bottom: 0rem;
+    background-color: #141414;
+	/* gradient - white to very light grey 
 	-webkit-background: linear-gradient(#ffffff, #f9f9fa);
 	-o-background: linear-gradient(#ffffff, #f9f9fa);
 	-moz-background: linear-gradient(#ffffff, #f9f9fa);
 	-ms-background: linear-gradient(#ffffff, #f9f9fa);
 	background: linear-gradient(#ffffff, #f9f9fa);
+	*/
 }
 
 .banner__nav li {
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     display: inline-block;
     margin: auto;
-    background-color: #ffffff;
-    /* white to grey transitions */
+    background-color: #141414;
+    /* white to grey transitions
     -webkit-transition: background-color 0.3s ease-in;
     -moz-transition: background-color 0.3s ease-in;
     -o-transition: background-color 0.3s ease-in;
     -ms-transition: background-color 0.3s ease-in;
     transition: background-color 0.3s linear;
+	*/
 }
 
 .banner__nav > ul > li {
-	background: linear-gradient(#ffffff, #f9f9fa);
+	/*background: linear-gradient(#ffffff, #f9f9fa);*/
+    background-color: #141414;
 }
 
 .banner__nav li:hover  {
     background: #e1e3e5;  /* light grey */
+    background-color: #141414;
 }
 
 .banner__nav a {
     margin: 0.6rem;
-    color: #000000;
+    color: #ffffff;
+}
+
+.banner__fade {
+	height: 2rem;
+
+	background: -webkit-linear-gradient(rgba(20,20,20,1),rgba(0,0,0,0)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(rgba(20,20,20,1),rgba(0,0,0,0)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(rgba(20,20,20,1),rgba(0,0,0,0)); /*Fx 3.6-15*/
+	background: linear-gradient(rgba(20,20,20,1), rgba(0,0,0,0)); /*Standard*/
 }
 
 .nav--left {
