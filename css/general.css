@@ -45,7 +45,7 @@ a:hover, a:visited {
 
 .banner li {
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     display: inline-block;
@@ -60,12 +60,12 @@ a:hover, a:visited {
 
 .banner a {
     margin: 0.6rem;
-    color: #666666;
+    color: #999999;
 	transition: color 0.2s linear;
 }
 
 .banner a:hover {
-	color: #888888;
+	color: #bbbbbb;
 }
 
 .nav--left {
