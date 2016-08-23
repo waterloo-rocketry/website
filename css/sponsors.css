@@ -1,6 +1,7 @@
 .cover-photo {
 	height: 35rem;
-	background: url('https://c1.staticflickr.com/1/279/18709112463_c76f156221_b.jpg');
+	/*background: url('https://c1.staticflickr.com/1/279/18709112463_c76f156221_b.jpg');*/
+	background: url('../images/sponsors.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
