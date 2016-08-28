@@ -1,6 +1,6 @@
 
 .rocket_pic img {
-	width: 7rem;
+	width: 5rem;
 	display: block;
 	margin: auto;
 }
@@ -34,6 +34,7 @@
 .photos {
 	background: #f7f7f7;
 	padding: 2rem;
+	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
@@ -46,6 +47,11 @@
 }
 
 /* details section */
+.details__col {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
 .videos {
 	background: #ffffff;
 	padding: 2rem;
