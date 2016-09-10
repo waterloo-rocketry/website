@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Rockets - Waterloo Rocketry Team</title>
+		<title>Competition - Waterloo Rocketry Team</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="../css/css_reset.css">
 		<link rel="stylesheet" href="../css/general.css">
-		<link rel="stylesheet" href="../css/rockets.css">
+		<link rel="stylesheet" href="../css/competition.css">
 	</head>
 	<body>
 		<div class="banner">
@@ -24,49 +24,23 @@
 				<li><a href="media.html">MEDIA</a>
 				<li><a href="contact.html">CONTACT</a>
 			</ul>
-		</div> 
+		</div>
 
 		<div class="page-wrap">
-			<div class="box__wrapper">
-				<div class="box col-md-4">
-					<a href="vidar2.html">
-						<div class="box__inner" id="vidar2">
-							<h1 class="title">VIDAR II</h1>
-							<h1 class="title">2015</h1>
-						</div>
-					</a>
+			<div class="wrapper col-md-12">
+				<div class="col-md-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-P6y9tadDJY"></iframe>
+					</div>
 				</div>
-				<div class="box col-md-4">
-					<a href="vidar.html">
-						<div class="box__inner" id="vidar">
-							<h1 class="title">VIDAR</h1>
-							<h1 class="title">2014</h1>
-						</div>
-					</a>
-				</div>
-				<div class="box col-md-4">
-					<a href="silverbrant.html">
-						<div class="box__inner" id="silverbrant">
-							<h1 class="title">SILVER BRANT</h1>
-							<h1 class="title">2013</h1>
-						</div>
-					</a>
-				</div>
-				<div class="box col-md-4">
-					<a href="eridani.html">
-						<div class="box__inner" id="eridani">
-							<h1 class="title">ERIDANI</h1>
-							<h1 class="title">2012</h1>
-						</div>
-					</a>
-				</div>
-				<div class="box col-md-4">
-					<a href="wrt1.html">
-						<div class="box__inner" id="wrt1">
-							<h1 class="title">WRT 1</h1>
-							<h1 class="title">2011</h1>
-						</div>
-					</a>
+				<div class="col-md-6">
+					<h1 class="content-title">INTERCOLLEGIATE ROCKET ENGINEERING COMPETITION</h1>
+					<p class="content-text">
+						IREC is an international competition hosted by the Experimental Sounding Rocket Association every June in Green River, Utah. The competition is divided into two categories: Basic and Advanced. In both categories, students must submit a rocket purposed to fly up to 10,000' or 25,000' while carrying a 10 lb payload, depending on the category. The competition promotes student design and construction for all of the components, including propulsion, structures, avionics, recovery, and payloads. An over use of commercial components is discouraged, as it does not reflect the spirit of the competition. 
+					</p>
+					<p class="content-text">
+						Visit the official competition page <a href="http://www.soundingrocket.org/">here</a>.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -83,7 +57,7 @@
                     <img src="../images/icon_flickr.png">
                 </a>
                 <a href="https://www.youtube.com/user/uwrocketry">
-                    <img src="../images/icon_youtube.png">
+                    <img src="../images/youtube-dreamstale86.png">
                 </a>
             </div>
 		</div>

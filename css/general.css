@@ -95,7 +95,7 @@ a:hover, a:visited {
 .footer {
 	height: 5rem;
 	text-align: center;
-	padding-top: 2.75rem;
+	padding-top: 2.3rem;
 	background: #2b2b2b;
 	background-color: rgba(0, 0, 0, 0.90);
 }
@@ -105,7 +105,7 @@ a:hover, a:visited {
 }
 
 .footer__container a img {
-	height: 1.5rem;
+	height: 1.7rem;
 }
 
 /* LINE ELEMENT */
