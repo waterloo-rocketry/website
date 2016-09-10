@@ -1,6 +1,15 @@
+p {
+	margin-bottom: 0.5rem;
+}
 
 .rocket_pic img {
 	width: 5rem;
+	display: block;
+	margin: auto;
+}
+
+.pic_eridani img {
+	width: 8rem;
 	display: block;
 	margin: auto;
 }
