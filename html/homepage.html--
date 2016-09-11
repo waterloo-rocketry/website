@@ -25,7 +25,8 @@
 				<li><a href="contact.html">CONTACT</a>
 			</ul>
 		</div>
-		<div class="cover-photo"></div>
+		<div class="cover-photo">
+		</div>
 		<div class="wrapper col-md-12">
 			<div  class ="content">
 				<div class="content__about col-md-6">

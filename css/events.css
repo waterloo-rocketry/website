@@ -1,62 +1,34 @@
+#cover-photo {
+	height: 30rem;
+	background: url('../images/event_cover.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	background-size: cover;
+}
+
 .event__wrapper {
-	max-width: 75rem;
-	margin-top: 4.2rem;
-	padding-top: 1rem;
+	overflow: auto;
+	padding-left: 2rem;
+	/*padding-top: 2.5rem;*/
 }
 
 .event {
-	padding-top:1rem;
-	padding-bottom:1rem;
+	overflow: auto;
+	margin-bottom: 2rem;
+	padding-top: 2.5rem;
+	/*padding: 1rem;*/
 }
 
-.event p {
+.event__wrapper p {
 	padding-bottom: 1rem;
+}
+
+#event__line {
+	margin-left: 1rem;
+	margin-right: 3rem;
 }
 
 .poster {
-	text-align: center;
-	padding-bottom: 1rem;
-}
-
-.poster img {
-	width: 90%;
-	max-width: 20rem;
-}
-
-.sponsors {
-}
-
-.sponsors__container {
-	padding-top: 1rem;
-}
-
-/*individual sponsor styling */
-.sdc {
-	width: 30rem;
-	display: block;
-}
-
-#engsoc1 {
-	height: 6rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	margin-left: -0.8rem;
-}
-
-#engsoc2 {
-	height: 5rem;
-	margin-left: -0.7rem;
-}
-
-#proto {
-	height: 5rem;
-}
-
-#kerbal {
-	height: 5rem;
-}
-
-#sw {
-	height: 3rem;
-	margin-bottom: 1rem;
+	margin-left: 10%;
+	max-width: 80%;
 }

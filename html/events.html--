@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Events - Waterloo Rocketry Team</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/css_reset.css">
+		<link rel="stylesheet" href="../css/general.css">
+		<link rel="stylesheet" href="../css/events.css">
+	</head>
+	<body>
+		<div class="banner">
+			<!--- missing </li> tags to remove space between inline block elements -->
+			<ul class="pull-left nav--left">
+				<a href="homepage.html">
+					<img class="banner__logo" src="http://www.waterloorocketry.com/uploads/2/2/6/8/22686568/1413675499.png"/>
+				</a>
+			</ul>
+			<ul class="pull-right nav--right">
+				<li><a href="competition.html">COMPETITION</a>
+				<li><a href="sponsors.html">SPONSORS</a>
+				<li><a href="rockets.html">ROCKETS</a>
+				<li><a href="events.html">EVENTS</a>
+				<li><a href="media.html">MEDIA</a>
+				<li><a href="contact.html">CONTACT</a>
+			</ul>
+		</div>
+
+		<div class="event__wrapper">
+			<div class="event col-md-12">
+				<div class="poster col-md-4">
+					<img src="http://www.waterloorocketry.com/uploads/2/2/6/8/22686568/8343133.jpg?455"/>
+				</div>
+				<div class="col-md-8">
+					<h1 class="content-title">ROCKET DRAG RACE 2015</h1>
+					<p class="content-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque nunc, viverra sed mi vitae, consectetur tempor ligula. Aenean tempor, dolor sed finibus commodo, elit augue tristique risus, et euismod tortor elit a ipsum. Nunc auctor quis libero quis dignissim. Nunc posuere urna dictum leo congue molestie. Sed ullamcorper quis ligula in pellentesque. Nullam purus magna, pellentesque a congue ut, sollicitudin id lorem. Nulla porttitor pulvinar libero et condimentum. Morbi congue tincidunt neque eu pharetra. In hac habitasse platea dictumst. Curabitur enim velit, imperdiet eu mi vitae, pretium dignissim velit. Cras maximus urna turpis, nec efficitur est viverra congue.
+					</p>
+					<div class="line"></div>
+				</div>
+			</div>
+
+			<div class="event col-md-12">
+				<div class="poster col-md-4">
+					<img src="http://www.waterloorocketry.com/uploads/2/2/6/8/22686568/2329364.jpg?431"/>
+				</div>
+				<div class="col-md-8">
+					<h1 class="content-title">ROCKET DRAG RACE 2014</h1>
+					<p class="content-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque nunc, viverra sed mi vitae, consectetur tempor ligula. Aenean tempor, dolor sed finibus commodo, elit augue tristique risus, et euismod tortor elit a ipsum. Nunc auctor quis libero quis dignissim. Nunc posuere urna dictum leo congue molestie. Sed ullamcorper quis ligula in pellentesque. Nullam purus magna, pellentesque a congue ut, sollicitudin id lorem. Nulla porttitor pulvinar libero et condimentum. Morbi congue tincidunt neque eu pharetra. In hac habitasse platea dictumst. Curabitur enim velit, imperdiet eu mi vitae, pretium dignissim velit. Cras maximus urna turpis, nec efficitur est viverra congue.
+					</p>
+					<div class="sponsors">
+						<h1 class="content-title">SPONSORED BY</h1>
+						<div class="sponsors__container">
+							<img class="sdc" src="http://www.waterloorocketry.com/uploads/2/2/6/8/22686568/2502585.png?554"/>
+							<img id="engsoc1" src="http://concretetoboggan.uwaterloo.ca/img/logo/2013/full/EngSoc%20(colour).JPG"/>
+						</div>
+						<div class="line col-md-12"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="event col-md-12">
+				<div class="poster col-md-4">
+					<img src="http://www.waterloorocketry.com/uploads/2/2/6/8/22686568/_6030899_orig.png"/>
+				</div>
+				<div class="col-md-8">
+					<h1 class="content-title">MODEL ROCKET COMPETITION 2013</h1>
+					<p class="content-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque nunc, viverra sed mi vitae, consectetur tempor ligula. Aenean tempor, dolor sed finibus commodo, elit augue tristique risus, et euismod tortor elit a ipsum. Nunc auctor quis libero quis dignissim. Nunc posuere urna dictum leo congue molestie. Sed ullamcorper quis ligula in pellentesque. Nullam purus magna, pellentesque a congue ut, sollicitudin id lorem. Nulla porttitor pulvinar libero et condimentum. Morbi congue tincidunt neque eu pharetra. In hac habitasse platea dictumst. Curabitur enim velit, imperdiet eu mi vitae, pretium dignissim velit. Cras maximus urna turpis, nec efficitur est viverra congue.
+					</p>
+					<div class="sponsors">
+						<h1 class="content-title">SPONSORED BY</h1>
+						<div class="sponsors__container">
+							<img class="sdc" src="http://www.waterloorocketry.com/uploads/2/2/6/8/22686568/2502585.png?554"/>
+							<img id="engsoc2" src="http://www.feds.ca/wp-content/blogs.dir/57/files//2012/08/engsoc.png"/>
+							<img id="proto" src="http://cdn.shopify.com/s/files/1/0368/2641/t/2/assets/logo.png?17904739134546558950"/>
+							<img id="kerbal" src="https://upload.wikimedia.org/wikipedia/en/e/e7/Kerbal_Space_Program_High_Res_Logo.png"/>
+							<img id="sw" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/SolidWorks_Logo.svg/800px-SolidWorks_Logo.svg.png"/>
+							<div class="line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="event col-md-12">
+				<div class="poster col-md-4">
+					<img src="http://www.waterloorocketry.com/uploads/2/2/6/8/22686568/659730915.jpg?382"/>
+				</div>
+				<div class="col-md-8">
+					<h1 class="content-title">ROCKETRY EDUCATION SESSIONS 2011-2012</h1>
+					<p class="content-text">
+					Our team has had an ongoing and active outreach program in both 2011, and 2012. The ESQ (Engineering Science Quest) day camp for children is run throughout the summer at University of Waterloo. Children participate in a number of science related actives. One of the activities is to visit with student engineering teams. Over the last year we have run outreach sessions for over 250 children. We have taught them some of the basic principles of rocket design. We also flown small model rockets with them. Outreach remains an important part of our work, as we seek to inspire the future generations of rocket scientists. 
+					</p>
+							<div class="line"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="footer col-md-12">
+			<div class="footer__container">
+                <a href="https://www.facebook.com/WaterlooRocketryTeam">
+                    <img src="../images/icon_fb.png">
+                </a>
+                <a href="mailto:uwrocketry@gmail.com">
+                    <img src="../images/icon_mail.png">
+                </a>
+                <a href="https://www.flickr.com/photos/64315121@N05/">
+                    <img src="../images/icon_flickr.png">
+                </a>
+                <a href="https://www.youtube.com/user/uwrocketry">
+                    <img src="../images/youtube-dreamstale86.png">
+                </a>
+            </div>
+		
+	</body>
+</html>
