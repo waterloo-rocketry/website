@@ -58,6 +58,10 @@ p {
 	width: 100%;
 }
 
+.photos a {
+	color: #000000;
+}
+
 .photos > .col-md-4 {
 	padding: 0.5rem;
 }
