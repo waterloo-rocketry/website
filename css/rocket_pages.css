@@ -59,7 +59,16 @@ p {
 }
 
 .photos a {
-	color: #000000;
+    color: #000000;
+    -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
+
+.photos a:hover {
+    color: grey;
 }
 
 .photos > .col-md-4 {
