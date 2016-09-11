@@ -42,17 +42,31 @@ p {
 /*photos section */
 .photos {
 	background: #f7f7f7;
-	padding: 2rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	padding: 1rem;
+	padding-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .photos img {
 	display: block;
 	margin: auto;
-	margin-top: 1.5rem;
-	margin-bottom: 1rem;
-	width: 103%;
+	margin-top: 0.5rem;
+	margin-bottom: 0.1rem;
+	width: 100%;
+}
+
+.photos > .col-md-4 {
+	padding: 0.5rem;
+}
+
+.photos > .col-md-12 {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.videos > .col-md-4 {
+	padding: 0.5rem;
 }
 
 /* details section */
@@ -63,10 +77,10 @@ p {
 
 .videos {
 	background: #ffffff;
-	padding: 2rem;
-	padding-bottom: 0;
-	margin-bottom: 1rem;
+	padding: 0.5rem;
+	padding-top: 0;
 }
 
 .videos div div {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
+}

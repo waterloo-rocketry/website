@@ -9,8 +9,8 @@
 
 /* CONTENT */
 .wrapper {
-	padding-left: 8rem;
-	padding-right: 8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 .content {
@@ -55,8 +55,8 @@
 /* MORE CONTENT links, etc*/
 .links {
 	padding-top: 1rem;
-	padding-left: 8rem;
-	padding-right: 8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	padding-bottom: 2rem;
 	background-color: #f7f7f7;
 	text-align: center;
