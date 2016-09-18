@@ -1,0 +1,82 @@
+.content-title {
+	margin-top: 1.2rem;
+}
+
+.banner {
+	min-height: 12rem;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.banner__logo {
+	height: 4rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+
+.banner li {
+	font-size: 2rem;
+}
+
+/* Homepage */
+.content__join__button {
+	height: 6rem;
+	width: 18rem;
+	padding: 1.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.content__join__button h1 {
+	font-size: 3rem;
+}
+
+/* cover photos */
+#comp_cover {
+	height: 60rem;
+}
+
+#sponsor_cover {
+	height: 60rem;
+}
+
+#event_cover {
+	height: 60rem;
+}
+
+/* Rocket page */
+.box__wrapper {
+	padding-top: 15rem;
+}
+
+.box {
+	height: 25rem;
+}
+
+.box h1 {
+	font-size: 3rem;
+}
+
+.box__inner {
+	height: 23rem;
+	padding-top: 9rem;
+}
+
+/* FOOTER */
+.page-wrap {
+	margin-bottom: -12rem;
+}
+
+.page-wrap:after {
+	height: 12rem;
+}
+
+.footer {
+	padding-top: 3rem;
+	height: 12rem;
+}
+
+.footer__container a img {
+	height: 6rem;
+}
+
