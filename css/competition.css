@@ -1,8 +1,9 @@
 #comp_cover {
-	height: 25rem;
-	background: url('http://media1.santabanta.com/full1/Animals/Cats/cats-149a.jpg');
+	height: 35rem;
+	background: url("../images/comp_photo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 50% 90%;
 }
 
 .embed-responsive {
