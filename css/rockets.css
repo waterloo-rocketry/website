@@ -28,7 +28,8 @@
 
 /* individual box backgrounds */
 #vidar2 {
-	background: url('http://c2.staticflickr.com/4/3674/18709120553_a3c3db48e4_b.jpg');
+	/*background: url('http://c2.staticflickr.com/4/3674/18709120553_a3c3db48e4_b.jpg');*/
+	background: url('../images/vidar2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
