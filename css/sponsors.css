@@ -39,19 +39,9 @@
 	height: 8rem;
 	width: auto;
 }
-.dan img {
-	height: 6rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;		
-}
-
-.dan p {
-	padding-left: 3rem;
-	padding-right: 3rem;
-}
 
 .platinum img {
-	height: 9rem;
+	height: 6rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -62,15 +52,7 @@
 }
 
 .gold img {
-	/*width: 45%;*/
-	width: 20rem;
-	display: block;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	/*margin-top: 1.7rem;*/
-	/*margin-bottom: 0.7rem;*/
-	height: auto;
+	height: 9rem;
 }
 
 .silver img {
@@ -80,7 +62,7 @@
 	margin: 1rem;
 }
 
-.bronzeHorizontal img {
+.bronze img {
 	/*width: 45%;*/
 	width: 14rem;
 	display: block;
@@ -90,18 +72,6 @@
 	/*margin-top: 1.7rem;*/
 	/*margin-bottom: 0.7rem;*/
 	height: auto;
-}
-
-.bronzeVertical img {
-	/*width: 45%;*/
-	width: auto;
-	display: block;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	/*margin-top: 1.7rem;*/
-	/*margin-bottom: 0.7rem;*/
-	height: 5rem;
 }
 
 .previous img {
