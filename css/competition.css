@@ -21,3 +21,11 @@
 .wrapper p {
 	margin-bottom: 1rem;
 }
+
+.compPhoto img {
+	/*width: 45%;*/
+	display: block;
+	width: 40rem;
+	margin: auto;
+	margin-bottom: 3rem;
+}
