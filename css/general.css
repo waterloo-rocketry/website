@@ -31,17 +31,17 @@ a:hover, a:visited {
     display: block;
 
 	height: auto;
-    /*min-height: 4.2rem;*/
-	padding-top: 1vw;
-	padding-bottom: 0.5vw;
+    min-height: 4.2rem;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
 	background: #2b2b2b;
 	background-color: rgba(0, 0, 0, 0.85);
 }
 
 .banner__logo {
     display: inline-block;
-	height: 2.3vw;
-    margin: 0.1vw;
+	height: 2.3rem;
+    margin: 0.1rem;
 }
 
 .banner ul {
@@ -50,7 +50,6 @@ a:hover, a:visited {
 
 .banner li {
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 0.85vw;
     font-weight: 300;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
