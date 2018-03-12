@@ -104,6 +104,35 @@
 	height: 5rem;
 }
 
+.bronzeInline img {
+	/*width: 45%;*/
+	width: auto;
+	display: inline;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	/*margin-top: 1.7rem;*/
+	/*margin-bottom: 0.7rem;*/
+	height: 4rem;
+}
+
+.bronzeInlineWide img {
+	/*width: 45%;*/
+	width: 14rem;
+	display: inline;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	/*margin-top: 1.7rem;*/
+	/*margin-bottom: 0.7rem;*/
+	height: auto;
+	vertical-align: middle;
+}
+
 .previous img {
 	height: 3rem;
 	width: auto;
