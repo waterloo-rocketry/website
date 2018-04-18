@@ -21,33 +21,6 @@
 	padding: 2rem;
 }
 
-.content__join__button {
-	background-color: #8c0733;
-	margin-top: 1rem;
-	padding: 0.5rem;
-	text-align: center;
-	height: 2rem;
-	width: 6rem;
-	border-radius: 0.5rem;
-	/* transitions */
-	-webkit-transition: background-color 0.3s linear;
-	-moz-transition: background-color 0.3s linear;
-	-o-transition: background-color 0.3s linear;
-	-ms-transition: background-color 0.3s linear;
-	transition: background-color 0.3s linear;
-}
-
-.content__join__button:hover  {
-	background-color: #620423;
-}
-
-.content__join__button h1 {
-	color: #ffffff;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-weight: 600;
-	font-size: 1rem;
-}
-
 /* MORE CONTENT links, etc*/
 .links {
 	padding-top: 1rem;
