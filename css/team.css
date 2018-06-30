@@ -1,0 +1,239 @@
+#members_cover {
+	height: 35rem;
+	background: url('../images/members/team-fun.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.members__info {
+	padding-top: 1.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1rem;
+	padding-bottom: 1.5rem;
+}
+
+.box__wrapper {
+	padding-top: 5.2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 1.5rem;
+}
+
+.box__outer{
+	background: url('../images/members/missing.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 15rem;
+	height:	15rem;
+	text-align: left;
+	padding-left: 0rem;
+	padding-right: 2rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.box__outer:hover .box__inner{
+	transition: 0.3s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.box__inner {
+	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 15rem;
+	height:	15rem;
+	text-align: left;
+	padding-left: 1.5rem;
+	padding-top: 11rem;
+	transition: 0.3s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.box__inner .member_name {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 1.3rem;
+	margin-bottom: 0.3rem;
+}
+
+.box__inner .member_title {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	margin-bottom: 0.3rem;
+}
+
+.box__alum__outer{
+	background: url('../images/members/missing.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 10rem;
+	height:	10rem;
+	text-align: left;
+	padding-left: 0rem;
+	padding-right: 2rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.box__alum__outer:hover .box__alum__inner{
+	transition: 0.3s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.box__alum__inner {
+	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 10rem;
+	height:	10rem;
+	text-align: left;
+	padding-left: 0.8rem;
+	padding-top: 7rem;
+	transition: 0.3s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.box__alum__inner .alum_name {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 1rem;
+	margin-bottom: 0.3rem;
+}
+
+.box__alum__inner .alum_year {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+
+/* individual team member backgrounds */
+#miranda {
+	background: url('../images/members/miranda.jpg');
+	background-size: cover;
+}
+
+#hilbert {
+	background: url('../images/members/hilbert.jpg');
+	background-size: cover;
+}
+
+#jacob {
+	background: url('../images/members/jacob.jpg');
+	background-size: cover;
+}
+
+#doris {
+	background: url('../images/members/doris.jpg');
+	background-size: cover;
+}
+
+#nick {
+	background: url('../images/members/nick.jpg');
+	background-size: cover;
+}
+
+#robin {
+	background: url('../images/members/robin.jpg');
+	background-size: cover;
+}
+
+#david {
+	background: url('../images/members/david.jpg');
+	background-size: cover;
+}
+
+#alex {
+	background: url('../images/members/alex.jpg');
+	background-size: cover;
+}
+
+#aaron {
+	background: url('../images/members/aaron.jpg');
+	background-size: cover;
+}
+
+#adam {
+	background: url('../images/members/adam.jpg');
+	background-size: cover;
+}
+
+#vithusan {
+	background: url('../images/members/vithusan.jpg');
+	background-size: cover;
+}
+
+#hussein {
+	background: url('../images/members/hussein.jpg');
+	background-size: cover;
+}
+
+#emily {
+	background: url('../images/members/emily.jpg');
+	background-size: cover;
+}
+
+#nina {
+	background: url('../images/members/nina.jpg');
+	background-size: cover;
+}
+
+#colin {
+	background: url('../images/members/colin.jpg');
+	background-size: cover;
+}
+
+#mikayla {
+	background: url('../images/members/mikayla.jpg');
+	background-size: cover;
+}
+
+#shirley {
+	background: url('../images/members/shirley.jpg');
+	background-size: cover;
+}
+
+#tom {
+	background: url('../images/members/tom.jpg');
+	background-size: cover;
+}
+
+#edward {
+	background: url('../images/members/edward.jpg');
+	background-size: cover;
+}
+
+#riley {
+	background: url('../images/members/riley.jpg');
+	background-size: cover;
+}
+
+#veronica {
+	background: url('../images/members/veronica.jpg');
+	background-size: cover;
+}
+
+#charvi {
+	background: url('../images/members/charvi.jpg');
+	background-size: cover;
+}
+
+#aidan {
+	background: url('../images/members/aidan.jpg');
+	background-size: cover;
+}

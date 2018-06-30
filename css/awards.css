@@ -5,6 +5,14 @@
 	/*padding-top: 2.5rem;*/
 }
 
+#awards_cover {
+	height: 30rem;
+	background: url('../images/awards_cover.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	background-size: cover;
+}
+
 .content_rocket_tag {
 	background-color: #8c0733;
 	margin-top: 1rem;
@@ -46,5 +54,5 @@
 
 .poster {
 	margin-left: 10%;
-	max-width: 80%;
+	width: 8rem;
 }

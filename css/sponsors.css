@@ -82,7 +82,7 @@
 
 .bronzeHorizontal img {
 	/*width: 45%;*/
-	width: 14rem;
+	width: 8rem;
 	display: block;
 	margin: auto;
 	margin-top: 1rem;
@@ -101,7 +101,36 @@
 	margin-bottom: 1rem;
 	/*margin-top: 1.7rem;*/
 	/*margin-bottom: 0.7rem;*/
-	height: 5rem;
+	height: 4rem;
+}
+
+.bronzeInline img {
+	/*width: 45%;*/
+	width: auto;
+	display: inline;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	/*margin-top: 1.7rem;*/
+	/*margin-bottom: 0.7rem;*/
+	height: 3rem;
+}
+
+.bronzeInlineWide img {
+	/*width: 45%;*/
+	width: 10rem;
+	display: inline;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	/*margin-top: 1.7rem;*/
+	/*margin-bottom: 0.7rem;*/
+	height: auto;
+	vertical-align: middle;
 }
 
 .previous img {
