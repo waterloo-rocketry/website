@@ -1,7 +1,7 @@
 /* COVER PHOTO */
 .cover-photo {
-	height: 39rem;
-	background: url('https://farm4.staticflickr.com/3898/19303634276_95177215da_o.jpg');
+    height: 39rem;
+	background: url('../images/cover_photo.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 60%;
 	background-size: cover;
@@ -55,12 +55,6 @@
 	-o-transition: opacity 0.3s ease-in;
 	-ms-transition: opacity 0.3s ease-in;
 	transition: opacity 0.3s ease-in;
-	*/
-}
-
-.links img:hover {
-	/*
-	opacity: 0.8;
 	*/
 }
 
