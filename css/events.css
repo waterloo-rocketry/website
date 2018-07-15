@@ -1,9 +1,10 @@
 #event_cover {
 	height: 30rem;
-	background: url('../images/event_cover.jpg');
+	background: url('../images/temp.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 40%;
 	background-size: cover;
+	vertical-align: bottom;
 }
 
 .event__wrapper {
