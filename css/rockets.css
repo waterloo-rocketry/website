@@ -27,6 +27,13 @@
 }
 
 /* individual box backgrounds */
+#uxo {
+	/*background: url('http://c2.staticflickr.com/4/3674/18709120553_a3c3db48e4_b.jpg');*/
+	background: url('../images/uxo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 25% 90%;
+}
 #vidar3 {
 	/*background: url('http://c2.staticflickr.com/4/3674/18709120553_a3c3db48e4_b.jpg');*/
 	background: url('../images/Vidar3.jpg');
