@@ -27,8 +27,14 @@
 }
 
 /* individual box backgrounds */
+#uxo {
+	background: url('https://farm1.staticflickr.com/843/43201848131_7562877d40_o_d.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 25% 90%;
+}
 #vidar3 {
-	/*background: url('http://c2.staticflickr.com/4/3674/18709120553_a3c3db48e4_b.jpg');*/
+
 	background: url('../images/Vidar3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -36,7 +42,7 @@
 }
 
 #vidar2 {
-	/*background: url('http://c2.staticflickr.com/4/3674/18709120553_a3c3db48e4_b.jpg');*/
+
 	background: url('../images/vidar2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
