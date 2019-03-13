@@ -19,7 +19,7 @@
 }
 
 /* Homepage */
-.content__join__button {
+.photos__more__button {
 	height: 6rem;
 	width: 18rem;
 	padding: 1.5rem;
@@ -27,7 +27,7 @@
 	margin-bottom: 1.5rem;
 }
 
-.content__join__button h1 {
+.photos__more__button h1 {
 	font-size: 3rem;
 }
 
