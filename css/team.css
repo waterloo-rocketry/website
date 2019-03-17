@@ -48,7 +48,7 @@
 	width: 15rem;
 	height:	15rem;
 	text-align: left;
-	padding-left: 1.5rem;
+	padding-left: 1rem;
 	padding-top: 11rem;
 	transition: 0.3s;
 	visibility: hidden;
@@ -198,11 +198,6 @@
 	background-size: cover;
 }
 
-#mikayla {
-	background: url('../images/members/mikayla.jpg');
-	background-size: cover;
-}
-
 #shirley {
 	background: url('../images/members/shirley.jpg');
 	background-size: cover;
@@ -228,11 +223,6 @@
 	background-size: cover;
 }
 
-#charvi {
-	background: url('../images/members/charvi.jpg');
-	background-size: cover;
-}
-
 #aidan {
 	background: url('../images/members/aidan.jpg');
 	background-size: cover;
@@ -245,5 +235,50 @@
 
 #stefan {
     background: url('../images/members/stefan.jpg');
+    background-size: cover;
+}
+
+#kyle {
+    background: url('../images/members/kyle.jpg');
+    background-size: cover;
+}
+
+#delaney {
+    background: url('../images/members/delaney.jpg');
+    background-size: cover;
+}
+
+#ryan {
+    background: url('../images/members/ryan.jpg');
+    background-size: cover;
+}
+
+#aaronl {
+    background: url('../images/members/aaronl.jpg');
+    background-size: cover;
+}
+
+#roman {
+    background: url('../images/members/roman.jpg');
+    background-size: cover;
+}
+
+#matti {
+    background: url('../images/members/matti.jpg');
+    background-size: cover;
+}
+
+#zach {
+    background: url('../images/members/zach.jpg');
+    background-size: cover;
+}
+
+#teresa {
+    background: url('../images/members/teresa.jpg');
+    background-size: cover;
+}
+
+#vincent {
+    background: url('../images/members/vincent.jpg');
     background-size: cover;
 }
