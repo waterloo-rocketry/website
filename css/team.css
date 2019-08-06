@@ -279,7 +279,7 @@
 }
 
 #vincent {
-    background: url('../images/members/Vincent.jpg');
+    background: url('../images/members/vincent.jpg');
     background-size: cover;
 }
 
@@ -298,4 +298,7 @@
     background-size: cover;
 }
 
-
+#yiqing {
+    background: url('../images/members/yiqing.jpg');
+    background-size: cover;
+}
