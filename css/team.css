@@ -49,25 +49,30 @@
 	height:	15rem;
 	text-align: left;
 	padding-left: 1rem;
-	padding-top: 11rem;
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;
 }
 
-.box__inner .member_name {
+/* member name */
+.box__inner h1 { 
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 1.3rem;
 	margin-bottom: 0.3rem;
+	position: absolute;
+	bottom: 1.7rem;
 }
 
-.box__inner .member_title {
+/* member title */
+.box__inner h2 {
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1rem;
+	position: absolute;
+	bottom: 0.4rem;
 	margin-bottom: 0.3rem;
 }
 
@@ -100,26 +105,29 @@
 	height:	10rem;
 	text-align: left;
 	padding-left: 0.8rem;
-	padding-top: 7rem;
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;
 }
 
-.box__alum__inner .alum_name {
+/* alum title */
+.box__alum__inner h1 {
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 1rem;
-	margin-bottom: 0.3rem;
+	position: absolute;
+	bottom: 1.6rem;
 }
 
-.box__alum__inner .alum_year {
+/* alum year */
+.box__alum__inner h2 {
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 0.8rem;
-	margin-bottom: 0.3rem;
+	position: absolute;
+	bottom: 0.5rem;
 }
 
 /* individual team member backgrounds */
