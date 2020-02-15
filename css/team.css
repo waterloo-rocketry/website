@@ -49,25 +49,30 @@
 	height:	15rem;
 	text-align: left;
 	padding-left: 1rem;
-	padding-top: 11rem;
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;
 }
 
-.box__inner .member_name {
+/* member name */
+.box__inner h1 { 
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 1.3rem;
 	margin-bottom: 0.3rem;
+	position: absolute;
+	bottom: 1.7rem;
 }
 
-.box__inner .member_title {
+/* member title */
+.box__inner h2 {
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1rem;
+	position: absolute;
+	bottom: 0.4rem;
 	margin-bottom: 0.3rem;
 }
 
@@ -100,26 +105,29 @@
 	height:	10rem;
 	text-align: left;
 	padding-left: 0.8rem;
-	padding-top: 7rem;
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;
 }
 
-.box__alum__inner .alum_name {
+/* alum title */
+.box__alum__inner h1 {
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 1rem;
-	margin-bottom: 0.3rem;
+	position: absolute;
+	bottom: 1.6rem;
 }
 
-.box__alum__inner .alum_year {
+/* alum year */
+.box__alum__inner h2 {
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 0.8rem;
-	margin-bottom: 0.3rem;
+	position: absolute;
+	bottom: 0.5rem;
 }
 
 /* individual team member backgrounds */
@@ -183,18 +191,8 @@
 	background-size: cover;
 }
 
-#emily {
-	background: url('../images/members/emily.jpg');
-	background-size: cover;
-}
-
 #nina {
 	background: url('../images/members/nina.jpg');
-	background-size: cover;
-}
-
-#colin {
-	background: url('../images/members/colin.jpg');
 	background-size: cover;
 }
 
@@ -278,11 +276,6 @@
     background-size: cover;
 }
 
-#vincent {
-    background: url('../images/members/vincent.jpg');
-    background-size: cover;
-}
-
 #chris {
     background: url('../images/members/chris.jpg');
     background-size: cover;
@@ -301,4 +294,104 @@
 #yiqing {
     background: url('../images/members/yiqing.jpg');
     background-size: cover;
+}
+
+#zhenbo {
+    background: url('../images/members/zhenbo.jpg');
+    background-size: cover;
+}
+
+#kaveeshan {
+    background: url('../images/members/kaveeshan.jpg');
+    background-size: cover;
+}
+
+#ben {
+    background: url('../images/members/ben.jpg');
+    background-size: cover;
+}
+
+#joanna {
+    background: url('../images/members/joanna.jpg');
+    background-size: cover;
+}
+
+#abm {
+    background: url('../images/members/abm.jpg');
+    background-size: cover;
+}
+
+#hamza {
+    background: url('../images/members/hamza.jpg');
+    background-size: cover;
+}
+
+#waleed {
+    background: url('../images/members/waleed.jpg');
+    background-size: cover;
+}
+
+#jared {
+    background: url('../images/members/jared.jpg');
+    background-size: cover;
+}
+
+#lana {
+    background: url('../images/members/lana.jpg');
+    background-size: cover;
+}
+
+#ronald {
+    background: url('../images/members/ronald.jpg');
+    background-size: cover;
+}
+
+#sophie {
+    background: url('../images/members/sophie.jpg');
+    background-size: cover;
+}
+
+#francis {
+    background: url('../images/members/francis.jpg');
+    background-size: cover;
+}
+
+#chamath {
+    background: url('../images/members/chamath.jpg');
+    background-size: cover;
+}
+
+#sophier {
+    background: url('../images/members/sophier.jpg');
+    background-size: cover;
+}
+
+#kaelan {
+    background: url('../images/members/kaelan.jpg');
+    background-size: cover;
+}
+
+#tommy {
+    background: url('../images/members/tommy.jpg');
+    background-size: cover;
+}
+
+#alexander {
+    background: url('../images/members/alexander.jpg');
+    background-size: cover;
+}
+
+#nadine {
+    background: url('../images/members/nadine.jpg');
+    background-size: cover;
+}
+
+#justin {
+    background: url('../images/members/justin.jpg');
+    background-size: cover;
+}
+
+#wendi {
+    background: url('../images/members/wendi.jpg');
+    background-size: cover;	
 }
