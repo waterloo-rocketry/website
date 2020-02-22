@@ -32,7 +32,7 @@
 }
 
 .platinum img {
-	max-height: 200px;
+	max-height: 150px;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	max-width: 95%;
@@ -55,28 +55,23 @@
 
 
 .silver img{
-	/*width: 70%;*/
 	width: 20rem;
 	height: auto;
 	margin: 1rem;
 }
 
 .bronzeInlineWide img {
-	width: 10rem;
-	margin: 1rem;
+	width: auto;
 	height: auto;
+	max-height: 50px;
+	max-width: 175px;
 	vertical-align: middle;
+	margin: 1rem;
 }
 
 .previous img {
 	height: 3rem;
 	width: auto;
-	padding: auto;
+	margin: 0.75rem;
 }
 
-.previous__bottom img {
-	height: 3.5rem;
-	width: auto;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
