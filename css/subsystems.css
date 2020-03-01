@@ -11,10 +11,11 @@
 }
 
 .subsystem_container{
+	vertical-align: top;
 	margin: 1.5rem;
 	margin-top: 0;
 	border: 1px solid lightgray;
-	border-top: none;
+	display: none;
 }
 
 .rocket_img img{
@@ -28,24 +29,29 @@
 	margin-bottom: 0.5rem;
 }
 
+.active_container{
+	display: block;
+}
+
 .subsystem_container p{
 	margin: 1rem;
 }
 
 #toggle{
-	margin: 1.5rem;
-	margin-bottom: 0;
-	width: 95%;
+	margin: 1.5rem 0 0 1.5rem;
+	width: 97.4%;
 }
 
 #toggle :hover{
 	border: 1px solid lightblue;
-	border-bottom: none;
+	border-bottom: 2px solid white;
 }
 
 .tab{
 	padding: 1rem 0.3rem 0.3rem 1rem;
-	border-radius: 3px;
+	margin-bottom: -2px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 	border: 1px solid lightgray;
 	border-bottom: none;
 	display: inline-block;
@@ -57,22 +63,12 @@
 	pointer-events: none;
 }
 
-
-#payload{
-	display: none;
+.active_tab{
+	border: 2px solid lightblue;
+	border-bottom: 2px solid white;
+	pointer-events: none;
 }
 
-#electrical{
-	display: none;
-}
-
-#recovery{
-	display: none;
-}
-
-#propulsion{
-	display: none;
-}
 
 hr { 
 	display: block;

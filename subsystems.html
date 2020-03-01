@@ -39,14 +39,15 @@
         <div class="rocket_img">
             <img src="images/rocket_diagram.png">
             <div id="toggle">
-                <div class="tab"> <p class="content-text">AIRFRAME</p></div>
+                <div class="tab active_tab"> <p class="content-text">AIRFRAME</p></div>
                 <div class="tab"> <p class="content-text">PAYLOAD</p> </div>
                 <div class="tab"> <p class="content-text">ELECTRICAL</p> </div>
                 <div class="tab"> <p class="content-text">RECOVERY</p> </div>
                 <div class="tab"> <p class="content-text">PROPULSION</p> </div>
+                <div class="tab"> <p class="content-text">DAQ</p> </div>
             </div>
-        </div>
-        <div class = "subsystem_container" id="airframe"> 
+        </div> 
+        <div class = "subsystem_container active_container" id="airframe"> 
             <h2 class="content-title">AIRFRAME</h2>
             <hr>
             <p class="content-text">
@@ -81,10 +82,17 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
         </div>
+        <div class = "subsystem_container" id="daq">
+            <h2 class="content-title">DATA ACQUISITIONS</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
         <script>
             $('#toggle > div').click(function() {
-                $('#toggle > div').css("color", "black");
-                $(this).css("color", "blue");
+                $('#toggle > div').removeClass('active_tab');
+                $(this).addClass('active_tab');
                 let ix = $(this).index();
 
                 $('#airframe').toggle( ix === 0 );
@@ -92,7 +100,7 @@
                 $('#electrical').toggle( ix === 2 );
                 $('#recovery').toggle( ix === 3 );
                 $('#propulsion').toggle( ix === 4 );
-
+                $('#daq').toggle( ix === 5 );
             });
         </script>
     </body>
