@@ -17,41 +17,22 @@
 	margin-bottom: 1rem;	
 }
 
-.sponsors__header h1 {
-	margin: 1rem;
-}
-
 .sponsors__header .line {
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
 
+
 .sponsors__container {
+	padding: 3rem;
+	padding-top: 0rem;
 	text-align: center;
-	padding-bottom: 1.5rem;
-	display: block;
+	display: inline-block;
 	background: white;
 }
 
-.sponsors__container img {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	height: 8rem;
-	width: auto;
-}
-.dan img {
-	height: 6rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;		
-}
-
-.dan p {
-	padding-left: 3rem;
-	padding-right: 3rem;
-}
-
 .platinum img {
-	height: 9rem;
+	max-height: 150px;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	max-width: 95%;
@@ -64,85 +45,33 @@
 }
 
 .gold img {
-	/*width: 45%;*/
 	width: 20rem;
 	display: block;
 	margin: auto;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	/*margin-top: 1.7rem;*/
-	/*margin-bottom: 0.7rem;*/
 	height: auto;
 }
 
-.silver img {
-	/*width: 70%;*/
+
+.silver img{
 	width: 20rem;
 	height: auto;
 	margin: 1rem;
 }
 
-.bronzeHorizontal img {
-	/*width: 45%;*/
-	width: 8rem;
-	display: block;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	/*margin-top: 1.7rem;*/
-	padding-bottom: 0.7rem;
-	height: auto;
-}
-
-.bronzeVertical img {
-	/*width: 45%;*/
-	width: auto;
-	display: block;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	/*margin-top: 1.7rem;*/
-	/*margin-bottom: 0.7rem;*/
-	height: 4rem;
-}
-
-.bronzeInline img {
-	/*width: 45%;*/
-	width: auto;
-	display: inline;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	/*margin-top: 1.7rem;*/
-	/*margin-bottom: 0.7rem;*/
-	height: 3rem;
-}
-
 .bronzeInlineWide img {
-	/*width: 45%;*/
-	width: 10rem;
-	display: inline;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	/*margin-top: 1.7rem;*/
-	/*margin-bottom: 0.7rem;*/
+	width: auto;
 	height: auto;
+	max-height: 50px;
+	max-width: 175px;
 	vertical-align: middle;
+	margin: 1rem;
 }
 
 .previous img {
 	height: 3rem;
 	width: auto;
+	margin: 0.75rem;
 }
 
-.previous__bottom img {
-	height: 3.5rem;
-	width: auto;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
