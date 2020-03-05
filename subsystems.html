@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Subsystems - Waterloo Rocketry</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/css_reset.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/subsystems.css">
+        <link rel="stylesheet" media="screen and (max-device-width: 500px)" href="css/mobile.css">
+        <link rel="icon" href="images/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="banner">
+            <!--- missing </li> tags to remove space between inline block elements -->
+            <ul class="pull-left nav--left">
+                <a href="/">
+                <img class="banner__logo" src="images/banner_logo.png" />
+                </a>
+            </ul>
+            <ul class="pull-right nav--right">
+                <li><a href="competition">COMPETITION</a>
+                <li><a href="sponsors">SPONSORS</a>
+                <li><a href="rockets">ROCKETS</a>
+                <li><a href="team">TEAM</a>
+                <li><a href="awards">AWARDS</a>
+                <li><a href="outreach">OUTREACH</a>
+                <li><a href="contact">CONTACT</a>
+            </ul>
+        </div>
+        <div id="subsystems_cover"></div>
+        <div class="subsystems_info">
+            <h1 class="content-title">SUBSYSTEMS</h1> 
+            <p class="content-text"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div class="rocket_img">
+            <img src="images/rocket_diagram.png">
+            <div id="toggle">
+                <div class="tab"> <p class="content-text">AIRFRAME</p></div>
+                <div class="tab"> <p class="content-text">PAYLOAD</p> </div>
+                <div class="tab"> <p class="content-text">ELECTRICAL</p> </div>
+                <div class="tab"> <p class="content-text">RECOVERY</p> </div>
+                <div class="tab"> <p class="content-text">PROPULSION</p> </div>
+            </div>
+        </div>
+        <div class = "subsystem_container" id="airframe"> 
+            <h2 class="content-title">AIRFRAME</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div class = "subsystem_container" id="payload">
+            <h2 class="content-title">PAYLOAD</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div class = "subsystem_container" id="electrical"> 
+            <h2 class="content-title">ELECTRICAL</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div class = "subsystem_container" id="recovery">
+            <h2 class="content-title">RECOVERY</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div class = "subsystem_container" id="propulsion">
+            <h2 class="content-title">PROPULSION</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <script>
+            $('#toggle > div').click(function() {
+                $('#toggle > div').css("color", "black");
+                $(this).css("color", "blue");
+                let ix = $(this).index();
+
+                $('#airframe').toggle( ix === 0 );
+                $('#payload').toggle( ix === 1 );
+                $('#electrical').toggle( ix === 2 );
+                $('#recovery').toggle( ix === 3 );
+                $('#propulsion').toggle( ix === 4 );
+
+            });
+        </script>
+    </body>
+</html>
