@@ -16,13 +16,14 @@
             <!--- missing </li> tags to remove space between inline block elements -->
             <ul class="pull-left nav--left">
                 <a href="/">
-                <img class="banner__logo" src="images/banner_logo.png" />
+                <img class="banner__logo" src="images/banner_logo.png"/>
                 </a>
             </ul>
             <ul class="pull-right nav--right">
                 <li><a href="competition">COMPETITION</a>
                 <li><a href="sponsors">SPONSORS</a>
                 <li><a href="rockets">ROCKETS</a>
+                <li><a href="subsystems">SUBSYSTEMS</a>
                 <li><a href="team">TEAM</a>
                 <li><a href="awards">AWARDS</a>
                 <li><a href="events">EVENTS</a>
@@ -45,6 +46,8 @@
                 <div class="tab"> <p class="content-text">RECOVERY</p> </div>
                 <div class="tab"> <p class="content-text">PROPULSION</p> </div>
                 <div class="tab"> <p class="content-text">DAQ</p> </div>
+                <div class="tab"> <p class="content-text">RLCS</p> </div>
+                <div class="tab"> <p class="content-text">OPS</p> </div>
             </div>
         </div> 
         <div class = "subsystem_container active_container" id="airframe"> 
@@ -89,6 +92,20 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
         </div>
+        <div class = "subsystem_container" id="rlcs">
+            <h2 class="content-title">REMOTE CONTROL LAUNCH SYSTEM</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div class = "subsystem_container" id="ops">
+            <h2 class="content-title">OPERATIONS</h2>
+            <hr>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
         <script>
             $('#toggle > div').click(function() {
                 $('#toggle > div').removeClass('active_tab');
@@ -101,6 +118,8 @@
                 $('#recovery').toggle( ix === 3 );
                 $('#propulsion').toggle( ix === 4 );
                 $('#daq').toggle( ix === 5 );
+                $('#rlcs').toggle( ix === 6 );
+                $('#ops').toggle( ix === 7 );
             });
         </script>
     </body>

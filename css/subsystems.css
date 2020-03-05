@@ -39,7 +39,6 @@
 
 #toggle{
 	margin: 1.5rem 0 0 1.5rem;
-	width: 97.4%;
 }
 
 #toggle :hover{
@@ -55,7 +54,7 @@
 	border: 1px solid lightgray;
 	border-bottom: none;
 	display: inline-block;
-	width: 15%;
+	width: 10%;
 	cursor: pointer;
 }
 
