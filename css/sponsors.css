@@ -14,7 +14,7 @@
 .sponsors__header {
 	text-align: center;
 	margin-top: 1rem;
-	margin-bottom: 1rem;	
+	margin-bottom: 1rem;
 }
 
 .sponsors__header .line {
@@ -56,8 +56,11 @@
 
 .silver img{
 	width: 20rem;
+	display: block;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	height: auto;
-	margin: 1rem;
 }
 
 .bronzeInlineWide img {
