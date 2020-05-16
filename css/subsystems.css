@@ -10,31 +10,49 @@
     margin: 1.5rem;
 }
 
-.subsystem_container{
+.subsystem_container {
 	vertical-align: top;
 	margin: 1.5rem;
 	margin-top: 0;
 	border: 1px solid lightgray;
 	display: none;
+	padding: 1.5rem
 }
 
-.rocket_img img{
-	margin: 0 1.5rem;
-	width: 95%;
-}
-
-.subsystem_container h2{
+.subsystem_container h3 {
 	padding-top: 1rem;
-	margin: 0 1rem;
 	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.subsystem_container p {
+	margin-top: 1rem
+}
+
+.subsystem_container ul {
+	padding: 0.5rem 2rem;
+	list-style-type: disc;
+}
+
+table, th, td {
+	border: 1px solid darkgray;
+}
+
+th, td {
+	padding: 0.5rem;
+}
+
+th {
+	font-weight: bold;
 }
 
 .active_container{
 	display: block;
 }
 
-.subsystem_container p{
-	margin: 1rem;
+.rocket_img img {
+	margin: 0 1.5rem;
+	width: 95%;
 }
 
 #toggle{
@@ -55,11 +73,13 @@
 	border-bottom: none;
 	display: inline-block;
 	width: 10%;
+	min-width: 113px;
 	cursor: pointer;
 }
 
 .tab p{
 	pointer-events: none;
+	overflow: hidden;
 }
 
 .active_tab{
@@ -70,8 +90,8 @@
 
 
 hr { 
+	margin: 0.5rem 0;
 	display: block;
-	margin: 0 1rem;
     border-style: inset;
     border-width: 1px;	
 }
