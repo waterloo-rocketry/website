@@ -10,13 +10,15 @@
     margin: 1.5rem;
 }
 
+
 .subsystem_container {
 	vertical-align: top;
 	margin: 1.5rem;
-	margin-top: 0;
+	margin-top: 0px;
 	border: 1px solid lightgray;
 	display: none;
-	padding: 1.5rem
+	padding: 1.5rem;
+	box-sizing: border-box;
 }
 
 .subsystem_container h3 {
@@ -62,30 +64,33 @@ th {
 
 #toggle {
 	margin: 1.5rem 0 0 1.5rem;
+	box-sizing: border-box;
 }
 
 #toggle :hover {
 	border: 1px solid lightblue;
-	border-bottom: 1px solid lightgrey;
+	border-bottom: none;
 }
 
 .tab {
 	padding: 1rem 0.3rem 0.3rem 1rem;
-	margin-bottom: -5px;
+	margin-bottom: -1px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	border: 1px solid lightgray;
-	border-bottom: 1px solid lightgrey;
+	border-bottom: none;
 	display: inline-block;
 	width: 10%;
 	min-width: 113px;
 	cursor: pointer;
 	background-color: #f2f3f5;
+	font-size: 0;
 }
 
 .tab p {
 	pointer-events: none;
 	overflow: hidden;
+	font-size: 0.9rem;
 }
 
 .active_tab {
