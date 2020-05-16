@@ -46,7 +46,7 @@ th {
 	font-weight: bold;
 }
 
-.active_container{
+.active_container {
 	display: block;
 }
 
@@ -60,22 +60,22 @@ th {
 	display: block;
 }
 
-#toggle{
+#toggle {
 	margin: 1.5rem 0 0 1.5rem;
 }
 
-#toggle :hover{
-	border: 2px solid lightblue;
+#toggle :hover {
+	border: 1px solid lightblue;
 	border-bottom: 1px solid lightgrey;
 }
 
-.tab{
+.tab {
 	padding: 1rem 0.3rem 0.3rem 1rem;
-	margin-bottom: -2px;
+	margin-bottom: -5px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	border: 1px solid lightgray;
-	border-bottom: none;
+	border-bottom: 1px solid lightgrey;
 	display: inline-block;
 	width: 10%;
 	min-width: 113px;
@@ -83,14 +83,14 @@ th {
 	background-color: #f2f3f5;
 }
 
-.tab p{
+.tab p {
 	pointer-events: none;
 	overflow: hidden;
 }
 
-.active_tab{
+.active_tab {
 	border: 2px solid lightblue;
-	border-bottom: 2px solid white;
+	border-bottom: 1px solid white;
 	pointer-events: none;
 	background-color: white;
 }
