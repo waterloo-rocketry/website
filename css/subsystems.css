@@ -56,7 +56,7 @@ th {
 	display: none
 }
 
-.rocket_img .active_img {
+#active_img {
 	display: block;
 }
 

@@ -38,14 +38,14 @@
             </p>
         </div>
         <div class="rocket_img">
-            <img id="airframe" class="active_img" src="images/rocket_imgs/airframe.png">
-            <img id="payload" src="images/rocket_imgs/payload.png">
-            <img id="rocketcan" src="images/rocket_imgs/rocketcan.png">
-            <img id="recovery" src="images/rocket_imgs/recovery.png">
-            <img id="propulsion" src="images/rocket_imgs/propulsion.png">
-            <img id="daq" src="images/rocket_imgs/daq.png">
-            <img id="rlcs" src="images/rocket_imgs/rlcs.png">
-            <img id="ops" src="images/rocket_imgs/rlcs.png">
+            <img class="airframe" id="active_img" src="images/rocket_imgs/airframe.png">
+            <img class="payload" src="images/rocket_imgs/payload.png">
+            <img class="rocketcan" src="images/rocket_imgs/rocketcan.png">
+            <img class="recovery" src="images/rocket_imgs/recovery.png">
+            <img class="propulsion" src="images/rocket_imgs/propulsion.png">
+            <img class="daq" src="images/rocket_imgs/daq.png">
+            <img class="rlcs" src="images/rocket_imgs/rlcs.png">
+            <img class="ops" src="images/rocket_imgs/rlcs.png">
         </div>
         <div class="content-text">
             <div id="toggle">
@@ -59,7 +59,7 @@
                 <div class="tab"> <p>OPS</p> </div>
             </div>
         </div> 
-        <div class = "subsystem_container active_container" id="airframe"> 
+        <div class = "subsystem_container active_container" class="airframe"> 
             <h2 class="content-title">AIRFRAME</h2>
             <hr>
             <div class="content-text">
@@ -89,7 +89,7 @@
                 </ul>
             </div>
         </div>
-        <div class="subsystem_container" id="payload">
+        <div class="subsystem_container" class="payload">
             <h2 class="content-title">PAYLOAD</h2>
             <hr>
             <div class="content-text">
@@ -115,7 +115,7 @@
                 </p>
             </div>
         </div>
-        <div class = "subsystem_container" id="rocketcan"> 
+        <div class = "subsystem_container" class="rocketcan"> 
             <h2 class="content-title">ROCKETCAN</h2>
             <hr>
             <div class="content-text">
@@ -195,14 +195,14 @@
                 </p>
             </div>
         </div>
-        <div class = "subsystem_container" id="recovery">
+        <div class = "subsystem_container" class="recovery">
             <h2 class="content-title">RECOVERY</h2>
             <hr>
             <div class="content-text">
                 <p>u lazy bums</p>
             </div>
         </div>
-        <div class = "subsystem_container" id="propulsion">
+        <div class = "subsystem_container" class="propulsion">
             <h2 class="content-title">PROPULSION</h2>
             <hr>
             <div class="content-text">
@@ -228,7 +228,7 @@
                 </ul>
             </div>
         </div>
-        <div class = "subsystem_container" id="daq">
+        <div class = "subsystem_container" class="daq">
             <h2 class="content-title">DATA ACQUISITIONS</h2>
             <hr>
             <div class="content-text">
@@ -252,7 +252,7 @@
                 </p>
             </div>
         </div>
-        <div class = "subsystem_container" id="rlcs">
+        <div class = "subsystem_container" class="rlcs">
             <h2 class="content-title">REMOTE LAUNCH CONTROL SYSTEM</h2>
             <hr>
             <div class="content-text">
@@ -276,7 +276,7 @@
                 </p>
             </div>
         </div>
-        <div class = "subsystem_container" id="ops">
+        <div class = "subsystem_container" class="ops">
             <h2 class="content-title">OPERATIONS</h2>
             <hr>
             <div class="content-text">
@@ -308,14 +308,16 @@
                 $(this).addClass('active_tab');
                 let ix = $(this).index();
 
-                $('#airframe').toggle( ix === 0 );
-                $('#payload').toggle( ix === 1 );
-                $('#rocketcan').toggle( ix === 2 );
-                $('#recovery').toggle( ix === 3 );
-                $('#propulsion').toggle( ix === 4 );
-                $('#daq').toggle( ix === 5 );
-                $('#rlcs').toggle( ix === 6 );
-                $('#ops').toggle( ix === 7 );
+                $('#active_img').removeAttr('id', 'active_img')
+
+                $('.airframe').toggle( ix === 0 );
+                $('.payload').toggle( ix === 1 );
+                $('.rocketcan').toggle( ix === 2 );
+                $('.recovery').toggle( ix === 3 );
+                $('.propulsion').toggle( ix === 4 );
+                $('.daq').toggle( ix === 5 );
+                $('.rlcs').toggle( ix === 6 );
+                $('.ops').toggle( ix === 7 );
             });
         </script>
     </body>
