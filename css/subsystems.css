@@ -53,6 +53,11 @@ th {
 .rocket_img img {
 	margin: 0 1.5rem;
 	width: 95%;
+	display: none
+}
+
+.rocket_img .active_img {
+	display: block;
 }
 
 #toggle{
@@ -60,8 +65,8 @@ th {
 }
 
 #toggle :hover{
-	border: 1px solid lightblue;
-	border-bottom: 2px solid white;
+	border: 2px solid lightblue;
+	border-bottom: 1px solid lightgrey;
 }
 
 .tab{
@@ -75,6 +80,7 @@ th {
 	width: 10%;
 	min-width: 113px;
 	cursor: pointer;
+	background-color: #f2f3f5;
 }
 
 .tab p{
@@ -86,6 +92,7 @@ th {
 	border: 2px solid lightblue;
 	border-bottom: 2px solid white;
 	pointer-events: none;
+	background-color: white;
 }
 
 

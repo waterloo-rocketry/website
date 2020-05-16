@@ -38,16 +38,25 @@
             </p>
         </div>
         <div class="rocket_img">
-            <img src="images/rocket_diagram.png">
+            <img id="airframe" class="active_img" src="images/rocket_imgs/airframe.png">
+            <img id="payload" src="images/rocket_imgs/payload.png">
+            <img id="rocketcan" src="images/rocket_imgs/rocketcan.png">
+            <img id="recovery" src="images/rocket_imgs/recovery.png">
+            <img id="propulsion" src="images/rocket_imgs/propulsion.png">
+            <img id="daq" src="images/rocket_imgs/daq.png">
+            <img id="rlcs" src="images/rocket_imgs/rlcs.png">
+            <img id="ops" src="images/rocket_imgs/rlcs.png">
+        </div>
+        <div class="content-text">
             <div id="toggle">
-                <div class="tab active_tab"> <p class="content-text">AIRFRAME</p></div>
-                <div class="tab"> <p class="content-text">PAYLOAD</p> </div>
-                <div class="tab"> <p class="content-text">ROCKETCAN</p> </div>
-                <div class="tab"> <p class="content-text">RECOVERY</p> </div>
-                <div class="tab"> <p class="content-text">PROPULSION</p> </div>
-                <div class="tab"> <p class="content-text">DAQ</p> </div>
-                <div class="tab"> <p class="content-text">RLCS</p> </div>
-                <div class="tab"> <p class="content-text">OPS</p> </div>
+                <div class="tab active_tab"> <p>AIRFRAME</p></div>
+                <div class="tab"> <p>PAYLOAD</p> </div>
+                <div class="tab"> <p>ROCKETCAN</p> </div>
+                <div class="tab"> <p>RECOVERY</p> </div>
+                <div class="tab"> <p>PROPULSION</p> </div>
+                <div class="tab"> <p>DAQ</p> </div>
+                <div class="tab"> <p>RLCS</p> </div>
+                <div class="tab"> <p>OPS</p> </div>
             </div>
         </div> 
         <div class = "subsystem_container active_container" id="airframe"> 
@@ -133,47 +142,47 @@
                     <tr>
                         <td>Live Telemetry</td>
                         <td>?</td>
-                        <td>An improved version of radio board that allows for long-range communication, and therefore the transmission of live telemetry data throughout flight</td>
+                        <td>An improved version of radio board that allows for long-range communication, and therefore the transmission of live telemetry data throughout flight.</td>
                     </tr>
                     <tr>
                         <td>Injector Board</td>
                         <td>?</td>
-                        <td>Designed to control the rocket’s injector valve, this CAN board is a high powered DC motor controller</td>
+                        <td>Designed to control the rocket’s injector valve, this CAN board is a high powered DC motor controller.</td>
                     </tr>
                     <tr>
                         <td>Vent Board</td>
                         <td>?</td>
-                        <td>Designed to control a solenoid vent valve, this CAN board allows a medium current device to be powered on and off</td>
+                        <td>Designed to control a solenoid vent valve, this CAN board allows a medium current device to be powered on and off.</td>
                     </tr>
                     <tr>
                         <td>Fill Sensing</td>
                         <td>?</td>
-                        <td>This board is designed to read from a series of up to 14 hall effect sensors in order to detect the fill level of the oxidizer tank</td>
+                        <td>This board is designed to read from a series of up to 14 hall effect sensors in order to detect the fill level of the oxidizer tank.</td>
                     </tr>
                     <tr>
                         <td>Logger Board</td>
                         <td>?</td>
-                        <td>This small board is responsible for logging all CAN messages to an SD card</td>
+                        <td>This small board is responsible for logging all CAN messages to an SD card.</td>
                     </tr>
                     <tr>
                         <td>Mini Sensor</td>
                         <td>?</td>
-                        <td>This small board features an accelerometer, gyro, magnetometer, and connectors for a temperature sensor and pressure transducer to measure data about the rocket’s performance</td>
+                        <td>This small board features an accelerometer, gyro, magnetometer, and connectors for a temperature sensor and pressure transducer to measure data about the rocket’s performance.</td>
                     </tr>
                     <tr>
                         <td>GPS Board</td>
                         <td>?</td>
-                        <td>This board uses a GPS to relay the rocket’s location to the CAN bus at all times</td>
+                        <td>This board uses a GPS to relay the rocket’s location to the CAN bus at all times.</td>
                     </tr>
                     <tr>
                         <td>Remote Arming</td>
                         <td>?</td>
-                        <td>This large board allows the two altimeters that control the recovery system to be powered on and off via commands from the CAN bus. It also collects the rocket’s current altitude according to one of the altimeters and data about the state of the recovery system, ensuring that the recovery system is completely functional before launch</td>
+                        <td>This large board allows the two altimeters that control the recovery system to be powered on and off via commands from the CAN bus. It also collects the rocket’s current altitude according to one of the altimeters and data about the state of the recovery system, ensuring that the recovery system is completely functional before launch.</td>
                     </tr>
                     <tr>
                         <td>USB Debug</td>
                         <td>?</td>
-                        <td>This board allows CAN messages to be printed and sent over USB in order to help develop new hardware and software</td>
+                        <td>This board allows CAN messages to be printed and sent over USB in order to help develop new hardware and software.</td>
                     </tr>
                 </table>
                 <h3>HISTORY</h3>
@@ -244,7 +253,7 @@
             </div>
         </div>
         <div class = "subsystem_container" id="rlcs">
-            <h2 class="content-title">REMOTE CONTROL LAUNCH SYSTEM</h2>
+            <h2 class="content-title">REMOTE LAUNCH CONTROL SYSTEM</h2>
             <hr>
             <div class="content-text">
                 <h3>OVERVIEW</h3>
