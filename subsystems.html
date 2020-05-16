@@ -44,8 +44,7 @@
             <img class="recovery" src="images/rocket_imgs/recovery.png">
             <img class="propulsion" src="images/rocket_imgs/propulsion.png">
             <img class="daq" src="images/rocket_imgs/daq.png">
-            <img class="rlcs" src="images/rocket_imgs/rlcs.png">
-            <img class="ops" src="images/rocket_imgs/rlcs.png">
+            <img class="rlcsops" src="images/rocket_imgs/rlcs.png">
         </div>
         <div class="content-text" id="toggle">
             <div class="tab active_tab"> <p>AIRFRAME</p></div>
@@ -54,10 +53,9 @@
             <div class="tab"> <p>RECOVERY</p> </div>
             <div class="tab"> <p>PROPULSION</p> </div>
             <div class="tab"> <p>DAQ</p> </div>
-            <div class="tab"> <p>RLCS</p> </div>
-            <div class="tab"> <p>OPS</p> </div>
+            <div class="tab"> <p>RLCS/OPS</p> </div>
         </div>
-        <div class = "subsystem_container active_container" class="airframe">
+        <div class = "subsystem_container active_container airframe">
             <h2 class="content-title">AIRFRAME</h2>
             <hr>
             <div class="content-text">
@@ -87,7 +85,7 @@
                 </ul>
             </div>
         </div>
-        <div class="subsystem_container" class="payload">
+        <div class="subsystem_container payload">
             <h2 class="content-title">PAYLOAD</h2>
             <hr>
             <div class="content-text">
@@ -113,7 +111,7 @@
                 </p>
             </div>
         </div>
-        <div class = "subsystem_container" class="rocketcan"> 
+        <div class = "subsystem_container rocketcan"> 
             <h2 class="content-title">ROCKETCAN</h2>
             <hr>
             <div class="content-text">
@@ -193,14 +191,14 @@
                 </p>
             </div>
         </div>
-        <div class = "subsystem_container" class="recovery">
+        <div class = "subsystem_container recovery">
             <h2 class="content-title">RECOVERY</h2>
             <hr>
             <div class="content-text">
                 <p>u lazy bums</p>
             </div>
         </div>
-        <div class = "subsystem_container" class="propulsion">
+        <div class = "subsystem_container propulsion">
             <h2 class="content-title">PROPULSION</h2>
             <hr>
             <div class="content-text">
@@ -226,7 +224,7 @@
                 </ul>
             </div>
         </div>
-        <div class = "subsystem_container" class="daq">
+        <div class = "subsystem_container daq">
             <h2 class="content-title">DATA ACQUISITIONS</h2>
             <hr>
             <div class="content-text">
@@ -250,13 +248,14 @@
                 </p>
             </div>
         </div>
-        <div class = "subsystem_container" class="rlcs">
-            <h2 class="content-title">REMOTE LAUNCH CONTROL SYSTEM</h2>
+        <div class = "subsystem_container rlcsops">
+            <h2 class="content-title">REMOTE LAUNCH CONTROL SYSTEM | OPERATIONS</h2>
             <hr>
             <div class="content-text">
                 <h3>OVERVIEW</h3>
                 <p>
                     RLCS, the Remote Launch Control System, is responsible for allowing remote control of the ground based plumbing, and enabling communication between Mission Control and the rocket’s on board flight computers. This means that it allows the rock to be fuelled and launched remotely and from a safe distance.
+                    Our team also has set operations procedures that are carried out using RLCS.
                 </p>
                 <h3>COMPONENTS</h3>
                 <p>
@@ -272,18 +271,8 @@
                 <p>
                     A third version of RLCS is nearing completion. This version is focused on streamlining the design, and includes redesigns of all the custom PCBs to create a system that can be easily expanded to handle bigger, more complex rockets.
                 </p>
-            </div>
-        </div>
-        <div class = "subsystem_container" class="ops">
-            <h2 class="content-title">OPERATIONS</h2>
-            <hr>
-            <div class="content-text">
-                <h3>OVERVIEW</h3>
-                <h3>COMPONENTS</h3>
-                <h3>HISTORY</h3>
-                <h3>CURRENTLY WORKING ON</h3>
                 <p>
-                    Something we’re currently working on right now is our operations simulator software, which runs a realistic simulation of our operations procedure on a virtual model of our systems fill setup. You can check out our repository <a href="https://github.com/waterloo-rocketry/topside" target="_blank">here</a>.
+                    In terms of operations, we're currently working on our operations simulator software, which runs a realistic simulation of our operations procedure on a virtual model of our systems fill setup. You can check out our repository <a href="https://github.com/waterloo-rocketry/topside" target="_blank">here</a>.
                     A brief overview of our software looks like this:
                 </p>
                 <ul>
@@ -313,8 +302,7 @@
                 $('.recovery').toggle( ix === 3 );
                 $('.propulsion').toggle( ix === 4 );
                 $('.daq').toggle( ix === 5 );
-                $('.rlcs').toggle( ix === 6 );
-                $('.ops').toggle( ix === 7 );
+                $('.rlcsops').toggle( ix === 6 );
             });
         </script>
     </body>
