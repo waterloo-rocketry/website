@@ -10,7 +10,6 @@
     margin: 1.5rem;
 }
 
-
 .subsystem_container {
 	vertical-align: top;
 	margin: 1.5rem;
@@ -81,16 +80,30 @@ th {
 	border-bottom: none;
 	display: inline-block;
 	width: 10%;
-	min-width: 113px;
+	position: relative;
 	cursor: pointer;
 	background-color: #f2f3f5;
-	font-size: 0;
 }
+
+.tab p:after {
+	position: absolute;
+	bottom: 0;  
+	right: 1px;
+	height: 100%;
+	width: 100%;
+	border-top-right-radius: 3px;
+	content: "";
+	background: linear-gradient(to left,
+		#f2f3f5 10%, 
+	   rgba(255,255,255, 0) 20%
+	);
+	pointer-events: none; /* so the text is still selectable */
+  }
 
 .tab p {
 	pointer-events: none;
 	overflow: hidden;
-	font-size: 0.9rem;
+	font-size: 0.9em;
 }
 
 .active_tab {
@@ -98,6 +111,13 @@ th {
 	border-bottom: 1px solid white;
 	pointer-events: none;
 	background-color: white;
+}
+
+.active_tab p:after {
+	background: linear-gradient(to left,
+		white 10%, 
+	   rgba(255,255,255, 0) 20%
+	);
 }
 
 
