@@ -1,0 +1,133 @@
+#subsystems_cover {
+	height: 28rem;
+	background: url('../images/subsytems_cover.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.subsystems_info {
+    margin: 1.5rem;
+}
+
+.container {
+	min-height: 500px;
+}
+
+.subsystem_container {
+	vertical-align: top;
+	margin: 1.5rem;
+	margin-top: 0px;
+	border: 1px solid lightgray;
+	display: none;
+	padding: 1.5rem;
+	box-sizing: border-box;
+}
+
+.subsystem_container h3 {
+	padding-top: 1rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.subsystem_container p {
+	margin-top: 1rem
+}
+
+.subsystem_container ul {
+	padding: 0.5rem 2rem;
+	list-style-type: disc;
+}
+
+table, th, td {
+	border: 1px solid darkgray;
+}
+
+th, td {
+	padding: 0.5rem;
+}
+
+th {
+	font-weight: bold;
+}
+
+.active_container {
+	display: block;
+}
+
+.rocket_img img {
+	margin: 0 1.5rem;
+	width: 95%;
+	display: none
+}
+
+#active_img {
+	display: block;
+}
+
+#toggle {
+	margin: 1.5rem 0 0 1.5rem;
+	box-sizing: border-box;
+}
+
+#toggle :hover {
+	border: 1px solid lightblue;
+	border-bottom: none;
+}
+
+.tab {
+	padding: 1rem 0.3rem 0.3rem 1rem;
+	margin-bottom: -1px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border: 1px solid lightgray;
+	border-bottom: none;
+	display: inline-block;
+	width: 11%;
+	position: relative;
+	cursor: pointer;
+	background-color: #f2f3f5;
+}
+
+.tab p:after {
+	position: absolute;
+	bottom: 0;  
+	right: 1px;
+	height: 100%;
+	width: 100%;
+	border-top-right-radius: 3px;
+	content: "";
+	background: linear-gradient(to left,
+		#f2f3f5 10%, 
+	   rgba(255,255,255, 0) 20%
+	);
+	pointer-events: none; /* so the text is still selectable */
+  }
+
+.tab p {
+	pointer-events: none;
+	overflow: hidden;
+	font-size: 0.9em;
+}
+
+.active_tab {
+	border: 2px solid lightblue;
+	border-bottom: 1px solid white;
+	pointer-events: none;
+	background-color: white;
+}
+
+.active_tab p:after {
+	background: linear-gradient(to left,
+		white 10%, 
+	   rgba(255,255,255, 0) 20%
+	);
+}
+
+
+hr { 
+	margin: 0.5rem 0;
+	display: block;
+    border-style: inset;
+    border-width: 1px;	
+}
