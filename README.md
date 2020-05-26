@@ -1,4 +1,4 @@
-### Waterloo Rocketry Website ###
+### Waterloo Rocketry Website
 
 Hey y'all!
 
@@ -9,3 +9,11 @@ If you're on the team and would like to contribute, message me (Jacob) and I'll 
 I think that's all. Message Jacob if you have any questions/concerns/problems/etc.
 
 Happy web devving ;)
+
+#### Style Guide
+We generally try to use British/Canadian spellings over American ones. A non-exhaustive list of relevant words this impacts:
+* Aluminium, not aluminum
+* Mould, not mold
+* Fibre(glass), not fiber(glass)
+
+Consistency matters more than strictly going the Canadian way - if you're unsure, try `grepping` it (or ask one of us). :)
