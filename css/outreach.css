@@ -7,6 +7,10 @@
 	vertical-align: bottom;
 }
 
+.outreach__info{
+	margin: 2rem 3rem;
+}
+
 .event__wrapper {
 	overflow: auto;
 	padding-left: 2rem;
@@ -32,4 +36,9 @@
 .poster {
 	margin-left: 10%;
 	max-width: 80%;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 1.5rem;
 }
