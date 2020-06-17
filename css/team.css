@@ -1,6 +1,6 @@
 #members_cover {
 	height: 35rem;
-	background: url('../images/members/team-fun.jpg');
+	background: url('../images/members/team-win.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -120,7 +120,7 @@
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	position: absolute;
 	bottom: 1.6rem;
 }
@@ -398,5 +398,15 @@
 
 #wendi {
     background: url('../images/members/wendi.jpg');
+    background-size: cover;	
+}
+
+#chriss {
+    background: url('../images/members/chriss.jpg');
+    background-size: cover;	
+}
+
+#derek {
+    background: url('../images/members/derek.jpg');
     background-size: cover;	
 }
