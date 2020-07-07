@@ -31,6 +31,7 @@
 	background: white;
 }
 
+
 .platinum img {
 	max-height: 150px;
 	margin-top: 2rem;
@@ -51,6 +52,18 @@
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	height: auto;
+}
+
+
+.silver {
+	padding: 0;
+	width: 100%;
+	display: inline-flex;
+}
+
+.silver .vcenter {
+	margin: auto 5px;
+	width: 50%;
 }
 
 
