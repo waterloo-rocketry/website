@@ -15,7 +15,7 @@
 .btn {
     border-radius: 0rem;
     border: 1px solid rgb(0, 0, 0, .3);
-    background: rgb(0, 0, 0, .125);
+    background: rgb(0, 0, 0, .1);
     width: 100%;
     color: #1A4769;
     font-weight: bold;
@@ -30,4 +30,8 @@
 
 .answer-text {
     padding: 0.5rem 0;
+}
+
+.join-ul {
+    list-style-type: initial;
 }
