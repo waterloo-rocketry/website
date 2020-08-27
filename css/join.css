@@ -1,0 +1,37 @@
+#join_cover {
+	height: 28rem;
+	background: url('../images/join_cover.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.faq-container {
+    line-height: 135%;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.btn {
+    border-radius: 0rem;
+    border: 1px solid rgb(0, 0, 0, .3);
+    background: rgb(0, 0, 0, .1);
+    width: 100%;
+    color: #1A4769;
+    font-weight: bold;
+    margin: 0;
+}
+
+.answer {
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 0;
+}
+
+.answer-text {
+    padding: 0.5rem 0;
+}
+
+.join-ul {
+    list-style-type: initial;
+}
