@@ -59,6 +59,11 @@
 	opacity: 0;
 }
 
+.text__holder {
+	position: absolute;
+	bottom: 0.4rem;
+}
+
 /* member name */
 .box__inner h1 { 
 	color: white;
@@ -66,8 +71,6 @@
 	font-weight: 800;
 	font-size: 1.3rem;
 	margin-bottom: 0.3rem;
-	position: absolute;
-	bottom: 1.7rem;
 }
 
 /* member title */
@@ -76,8 +79,6 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1rem;
-	position: absolute;
-	bottom: 0.4rem;
 	margin-bottom: 0.3rem;
 }
 
@@ -121,8 +122,6 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 0.9rem;
-	position: absolute;
-	bottom: 1.6rem;
 }
 
 /* alum year */
@@ -131,8 +130,6 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 0.8rem;
-	position: absolute;
-	bottom: 0.5rem;
 }
 
 /* individual team member backgrounds */
