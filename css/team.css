@@ -59,6 +59,12 @@
 	opacity: 0;
 }
 
+.text__holder {
+	position: absolute;
+	bottom: 0.4rem;
+	margin: 0.3rem;
+}
+
 /* member name */
 .box__inner h1 { 
 	color: white;
@@ -66,8 +72,6 @@
 	font-weight: 800;
 	font-size: 1.3rem;
 	margin-bottom: 0.3rem;
-	position: absolute;
-	bottom: 1.7rem;
 }
 
 /* member title */
@@ -76,9 +80,6 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1rem;
-	position: absolute;
-	bottom: 0.4rem;
-	margin-bottom: 0.3rem;
 }
 
 .box__alum__outer{
@@ -121,8 +122,6 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 0.9rem;
-	position: absolute;
-	bottom: 1.6rem;
 }
 
 /* alum year */
@@ -131,8 +130,6 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 0.8rem;
-	position: absolute;
-	bottom: 0.5rem;
 }
 
 /* individual team member backgrounds */
@@ -393,15 +390,80 @@
 
 #wendi {
     background: url('../images/members/wendi.jpg');
-    background-size: cover;	
+    background-size: cover;
 }
 
 #chriss {
     background: url('../images/members/chriss.jpg');
-    background-size: cover;	
+    background-size: cover;
 }
 
 #derek {
     background: url('../images/members/derek.jpg');
-    background-size: cover;	
+    background-size: cover;
+}
+
+#zachary {
+    background: url('../images/members/zachary.jpg');
+    background-size: cover;
+}
+
+#khanh {
+    background: url('../images/members/khanh.jpg');
+    background-size: cover;
+}
+
+#dhruv {
+    background: url('../images/members/dhruv.jpg');
+    background-size: cover;
+}
+
+#saduni {
+    background: url('../images/members/saduni.jpg');
+    background-size: cover;
+}
+
+#alexr {
+    background: url('../images/members/alexr.png');
+    background-size: cover;
+}
+
+#michael {
+    background: url('../images/members/michael.jpg');
+    background-size: cover;
+}
+
+#jack {
+    background: url('../images/members/jack.jpg');
+    background-size: cover;
+}
+
+#soha {
+    background: url('../images/members/soha.jpg');
+    background-size: cover;
+}
+
+#robert {
+    background: url('../images/members/robert.jpg');
+    background-size: cover;
+}
+
+#rio {
+    background: url('../images/members/rio.jpg');
+    background-size: cover;
+}
+
+#daniel {
+    background: url('../images/members/daniel.jpg');
+    background-size: cover;
+}
+
+#artem {
+    background: url('../images/members/artem.png');
+    background-size: cover;
+}
+
+#ximing {
+    background: url('../images/members/ximing.jpg');
+    background-size: cover;
 }
