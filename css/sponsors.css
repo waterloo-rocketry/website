@@ -11,19 +11,19 @@
 	padding-bottom: 1.5rem;
 }
 
-.sponsors__header {
+.tier_header {
 	text-align: center;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
 
-.sponsors__header .line {
+.tier_header .line {
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
 
 
-.sponsors__container {
+.logo_container {
 	padding: 3rem;
 	padding-top: 0rem;
 	text-align: center;
