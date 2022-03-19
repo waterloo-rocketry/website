@@ -229,7 +229,7 @@
 }
 
 #delaney {
-    background: url('../images/members/delaney.jpg');
+    background: url('../images/members/delaney.png');
     background-size: cover;
 }
 
@@ -370,5 +370,55 @@
 
 #artem {
     background: url('../images/members/artem.png');
+    background-size: cover;
+}
+
+#kavin {
+    background: url('../images/members/kavin.jpg');
+    background-size: cover;
+}
+
+#gavin {
+    background: url('../images/members/gavin.jpg');
+    background-size: cover;
+}
+
+#joel {
+    background: url('../images/members/joel.jpg');
+    background-size: cover;
+}
+
+#kimi {
+    background: url('../images/members/kimi.png');
+    background-size: cover;
+}
+
+#denis {
+    background: url('../images/members/denis.jpg');
+    background-size: cover;
+}
+
+#stefana {
+    background: url('../images/members/stefana.jpg');
+    background-size: cover;
+}
+
+#andre {
+    background: url('../images/members/andre.jpg');
+    background-size: cover;
+}
+
+#adaml {
+    background: url('../images/members/adaml.jpg');
+    background-size: cover;
+}
+
+#charlie {
+    background: url('../images/members/charlie.jpg');
+    background-size: cover;
+}
+
+#joseph {
+    background: url('../images/members/joseph.png');
     background-size: cover;
 }
