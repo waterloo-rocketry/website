@@ -213,16 +213,6 @@
 	background-size: cover;
 }
 
-#riley {
-	background: url('../images/members/riley.jpg');
-	background-size: cover;
-}
-
-#aidan {
-	background: url('../images/members/aidan.jpg');
-	background-size: cover;
-}
-
 #yash {
 	background: url('../images/members/yash.jpg');
 	background-size: cover;
@@ -239,12 +229,7 @@
 }
 
 #delaney {
-    background: url('../images/members/delaney.jpg');
-    background-size: cover;
-}
-
-#ryan {
-    background: url('../images/members/ryan.jpg');
+    background: url('../images/members/delaney.png');
     background-size: cover;
 }
 
@@ -303,16 +288,6 @@
     background-size: cover;
 }
 
-#ben {
-    background: url('../images/members/ben.jpg');
-    background-size: cover;
-}
-
-#joanna {
-    background: url('../images/members/joanna.jpg');
-    background-size: cover;
-}
-
 #abm {
     background: url('../images/members/abm.jpg');
     background-size: cover;
@@ -323,11 +298,6 @@
     background-size: cover;
 }
 
-#waleed {
-    background: url('../images/members/waleed.jpg');
-    background-size: cover;
-}
-
 #jared {
     background: url('../images/members/jared.jpg');
     background-size: cover;
@@ -335,11 +305,6 @@
 
 #lana {
     background: url('../images/members/lana.jpg');
-    background-size: cover;
-}
-
-#ronald {
-    background: url('../images/members/ronald.jpg');
     background-size: cover;
 }
 
@@ -358,31 +323,6 @@
     background-size: cover;
 }
 
-#sophier {
-    background: url('../images/members/sophier.jpg');
-    background-size: cover;
-}
-
-#kaelan {
-    background: url('../images/members/kaelan.jpg');
-    background-size: cover;
-}
-
-#tommy {
-    background: url('../images/members/tommy.jpg');
-    background-size: cover;
-}
-
-#alexander {
-    background: url('../images/members/alexander.jpg');
-    background-size: cover;
-}
-
-#nadine {
-    background: url('../images/members/nadine.jpg');
-    background-size: cover;
-}
-
 #justin {
     background: url('../images/members/justin.jpg');
     background-size: cover;
@@ -398,33 +338,13 @@
     background-size: cover;
 }
 
-#derek {
-    background: url('../images/members/derek.jpg');
-    background-size: cover;
-}
-
 #zachary {
     background: url('../images/members/zachary.jpg');
     background-size: cover;
 }
 
-#khanh {
-    background: url('../images/members/khanh.jpg');
-    background-size: cover;
-}
-
-#dhruv {
-    background: url('../images/members/dhruv.jpg');
-    background-size: cover;
-}
-
 #saduni {
     background: url('../images/members/saduni.jpg');
-    background-size: cover;
-}
-
-#alexr {
-    background: url('../images/members/alexr.png');
     background-size: cover;
 }
 
@@ -438,11 +358,6 @@
     background-size: cover;
 }
 
-#soha {
-    background: url('../images/members/soha.jpg');
-    background-size: cover;
-}
-
 #robert {
     background: url('../images/members/robert.jpg');
     background-size: cover;
@@ -453,17 +368,57 @@
     background-size: cover;
 }
 
-#daniel {
-    background: url('../images/members/daniel.jpg');
-    background-size: cover;
-}
-
 #artem {
-    background: url('../images/members/artem.png');
+    background: url('../images/members/artem.jpg');
     background-size: cover;
 }
 
-#ximing {
-    background: url('../images/members/ximing.jpg');
+#kavin {
+    background: url('../images/members/kavin.jpg');
+    background-size: cover;
+}
+
+#gavin {
+    background: url('../images/members/gavin.jpg');
+    background-size: cover;
+}
+
+#joel {
+    background: url('../images/members/joel.jpg');
+    background-size: cover;
+}
+
+#kimi {
+    background: url('../images/members/kimi.jpg');
+    background-size: cover;
+}
+
+#denis {
+    background: url('../images/members/denis.jpg');
+    background-size: cover;
+}
+
+#stefana {
+    background: url('../images/members/stefana.jpg');
+    background-size: cover;
+}
+
+#andre {
+    background: url('../images/members/andre.jpg');
+    background-size: cover;
+}
+
+#adaml {
+    background: url('../images/members/adaml.jpg');
+    background-size: cover;
+}
+
+#charlie {
+    background: url('../images/members/charlie.jpg');
+    background-size: cover;
+}
+
+#joseph {
+    background: url('../images/members/joseph.png');
     background-size: cover;
 }
