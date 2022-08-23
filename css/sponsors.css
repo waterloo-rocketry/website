@@ -48,12 +48,11 @@
 .gold img {
 	width: auto;
 	max-width: 35rem;
-	max-height: 7rem;
 	display: block;
 	margin: auto;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	height: auto;
+	height: 7rem;
 }
 
 .silver img{
@@ -69,7 +68,7 @@
 
 .bronzeInlineWide img {
 	width: auto;
-	height: 4rem;
+	height: 4.5rem;
 	vertical-align: middle;
 	margin: 1rem;
 }
