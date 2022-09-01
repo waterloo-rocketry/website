@@ -1,9 +1,9 @@
 .photo {
 	height: 22rem;
-	background: url('https://c2.staticflickr.com/1/493/19143569929_febd3a033a_h.jpg');
+	background: url('../images/contact.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% 100%;
 }
 
 .iframe {
@@ -38,6 +38,11 @@
 }
 
 #fb {
+    width: 18rem;
+    margin-top: 2.5rem;
+}
+
+#ig {
     width: 18rem;
     margin-top: 2.5rem;
 }
