@@ -33,7 +33,7 @@
 
 
 .platinum img {
-	max-height: 150px;
+	max-height: 9rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	max-width: 95%;
@@ -46,47 +46,35 @@
 }
 
 .gold img {
-	width: 20rem;
+	width: auto;
+	max-width: 35rem;
 	display: block;
 	margin: auto;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	height: auto;
+	height: 7rem;
 }
-
-
-.silver {
-	padding: 0;
-	width: 100%;
-	display: inline-flex;
-}
-
-.silver .vcenter {
-	margin: auto 5px;
-	width: 50%;
-}
-
 
 .silver img{
-	width: 20rem;
-	display: block;
-	margin: auto;
+	width: auto;
+	margin: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	height: auto;
+	max-width: 22rem;
+	max-height: 6rem;
+	vertical-align: middle;
 }
 
 .bronzeInlineWide img {
 	width: auto;
-	height: auto;
-	max-height: 50px;
-	max-width: 175px;
+	height: 4.5rem;
 	vertical-align: middle;
 	margin: 1rem;
 }
 
 .previous img {
-	height: 3rem;
+	height: 1.5rem;
 	width: auto;
 	margin: 0.75rem;
 }
