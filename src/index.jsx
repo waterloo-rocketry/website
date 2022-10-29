@@ -44,11 +44,6 @@ ReactDOM.render(
         />
         <Route
           exact
-          path="/rockets"
-          element={<Page title="Rockets"><Rockets /></Page>}
-        />
-        <Route
-          exact
           path="/sponsors"
           element={<Page title="Sponsors"><Sponsors /></Page>}
         />
