@@ -3,9 +3,10 @@ import { React } from 'react';
 import Content from '../../components/Content/Content';
 import DividerLine from '../../components/DividerLine/DividerLine';
 import RocketPageOutline from '../../components/RocketPageOutline/RocketPageOutline';
-import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
+
+import styles from './SharkOfTheSky.module.css';
 
 import sotsUpright from '../../img/rocketPhotos/sots_upright.png';
 
@@ -13,7 +14,7 @@ const SharkOfTheSky = () => {
   return (
     <>
       <RocketPageOutline title="SHARK OF THE SKY" img={sotsUpright} altText="Shark of the sky drawing">
-        <Content title="Overview">
+        <Content title="Overview" className={styles.marginBottom}>
           Shark of the Sky (SotS) is a hybrid rocket developed for participation in the 2019
           Spaceport America Cup (SAC), 30000 ft SRAD (Student Researched And Designed)
           liquid/hybrid engine category. Building on the success of last year&apos;s rocket
@@ -21,17 +22,40 @@ const SharkOfTheSky = () => {
           SotS is powered by the Kismet hybrid SRAD engine, and achieved successful
           launch at the 2019 SAC.
         </Content>
-        <SpecsComponent specs={
-          [
-            [{ Diameter: '6"', Length: '217"' }, { 'Motor Classification': 'O', 'Wet Mass': '171 lbs' }],
-            [{ Fuel: 'Hydroxyl-Terminated Polybutadiene', Oxidizer: 'Nitrous Oxide' }, { 'Drogue Chute Diameter': '55"', 'Main Chute Diameter': '149.5"' }, { Apogee: '15,586 ft AGL' }],
-          ]
-        }
-        />
+        <TwoColumns title="">
+          <div>
+            <p>
+              Diameter: 6&quot;
+              <br />
+              Length: 217&quot;
+            </p>
+            <p>
+              Motor Classification: O
+              <br />
+              Wet Mass: 171 lbs
+            </p>
+          </div>
+          <div>
+            <p>
+              Fuel: Hydroxyl-Terminated Polybutadiene
+              <br />
+              Oxidizer: Nitrous Oxide
+            </p>
+            <p>
+              Drogue Chute Diameter: 55&quot;
+              <br />
+              Main Chute Diameter: 149.5&quot;
+            </p>
+            <p>
+              Apogee: 15,586 ft AGL
+              <br />
+            </p>
+          </div>
+        </TwoColumns>
         <DividerLine />
         <TwoColumns title="DETAILS">
           <>
-            <Content title="PAYLOAD">
+            <Content title="PAYLOAD" className={styles.marginBottom}>
               The team developed a payload this year that assessed the properties of 3D printed
               parts with varying infills and materials such as PLA and PET-G during the flight
               of the rocket. By weighing these parts down with steel and aluminium loads, we were
@@ -49,7 +73,7 @@ const SharkOfTheSky = () => {
               physics of ferrofluids and colloidal fluids under the influence of a magnetic field
               in microgravity.
             </Content>
-            <Content title="RECOVERY">
+            <Content title="RECOVERY" className={styles.marginBottom}>
               The recovery system onboard SotS uses a dual deployment system consisting of a
               drogue parachute and a main parachute. A carbon dioxide canister-based separation
               mechanism deploys the drogue chute at apogee, to minimize shock loading. At 1500 ft
@@ -64,7 +88,7 @@ const SharkOfTheSky = () => {
               two carbon dioxide ejectors, two pyrotechnic cutters, and both altimeters being
               capable of independently deploying the parachutes.
             </Content>
-            <Content title="NOSECONE">
+            <Content title="NOSECONE" className={styles.marginBottom}>
               Because of the possibility of going supersonic, a Von Kármán nosecone with a 4:1
               fineness ratio, built from fiberglass was selected for SOTS. Two mold halves were
               formed with MDF on a CNC router, and then joined during the layup to form the
@@ -73,7 +97,7 @@ const SharkOfTheSky = () => {
             </Content>
           </>
           <>
-            <Content title="RUN TANK">
+            <Content title="RUN TANK" className={styles.marginBottom}>
               SotS&apos;s oxidizer tank is built from 6061-T6 aluminium alloy and is 80&quot;
               long, with a 6&quot;outer diameter and 3/16&quot; wall thickness. Twenty-four
               1/4&quot;-28 bolts join the bulkheads to the tube at each end with
@@ -82,7 +106,7 @@ const SharkOfTheSky = () => {
               and improved airframe mounting structure, resulting in a 50% lighter mass
               than the previous year&apos;s design.
             </Content>
-            <Content title="COMBUSTION CHAMBER">
+            <Content title="COMBUSTION CHAMBER" className={styles.marginBottom}>
               The combustion chamber houses the injector, solid fuel, and nozzle. The chamber
               is insulated with a 1/8&quot; thick G11 fiberglass tube, and has a 5&quot; outer
               diameter. It has been hydrostatically tested 1.5x the maximum expected operating
@@ -92,13 +116,13 @@ const SharkOfTheSky = () => {
               sprayed through the system. The propellants combust and leave the nozzle, providing
               the rocket with thrust.
             </Content>
-            <Content title="FINS">
+            <Content title="FINS" className={styles.marginBottom}>
               SotS uses a carbon fibre fin can holding 3 trapezoidal carbon fiber fins.
               Carbon fiber was chosen for its high specific stiffness and low mass.
               The fins were cut on a CNC router and bonded to the tube with a high shear
               strength epoxy.
             </Content>
-            <Content title="PROJECT REPORT">
+            <Content title="PROJECT REPORT" className={styles.marginBottom}>
               A complete report of this project, including descriptions of onboard and ground
               support systems, engineering drawings of all rocket components, and a complete
               set of assembly and launch procedures for SotS can be downloaded&nbsp;
