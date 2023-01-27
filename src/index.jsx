@@ -52,9 +52,7 @@ ReactDOM.render(
           path="/sots"
           element={<Page title="Shark of the Sky"><SharkOfTheSky /></Page>}
         />
-      </Routes>
-      <Routes>
-        <Route
+         <Route
           exact
           path="/awards"
           element={<Page title="Awards"><Awards /></Page>}
