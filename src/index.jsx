@@ -51,11 +51,14 @@ ReactDOM.render(
           exact
           path="/sots"
           element={<Page title="Shark of the Sky"><SharkOfTheSky /></Page>}
+<<<<<<< HEAD
         />
          <Route
           exact
           path="/awards"
           element={<Page title="Awards"><Awards /></Page>}
+=======
+>>>>>>> 51ff45b2414020d1bab3fd8c1cd460576c397571
         />
       </Routes>
       <Footer />
