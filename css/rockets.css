@@ -27,6 +27,13 @@
 }
 
 /* individual box backgrounds */
+#kots {
+	background: url('https://live.staticflickr.com/65535/52240236486_a6a734f9f4_6k.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 25% 40%;
+}
+
 #sots {
 	background: url('https://live.staticflickr.com/65535/48368609986_5ebb35e798_o.jpg');
 	background-size: cover;
