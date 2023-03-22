@@ -409,12 +409,12 @@
 }
 
 #tessa {
-    background: url('../images/members/rida.jpg');
+    background: url('../images/members/tessa.jpg');
     background-size: cover;
 }
 
 #randy {
-    background: url('../images/members/rida.jpg');
+    background: url('../images/members/randy.jpg');
     background-size: cover;
 }
 
@@ -434,7 +434,7 @@
 }
 
 #owen {
-    background: url('../images/members/rida.jpg');
+    background: url('../images/members/owen.jpg');
     background-size: cover;
 }
 
@@ -480,5 +480,10 @@
 
 #kasia {
     background: url('../images/members/kasia.jpg');
+    background-size: cover;
+}
+
+#jerry {
+    background: url('../images/members/jerry.jpg');
     background-size: cover;
 }
